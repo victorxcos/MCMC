@@ -7,28 +7,52 @@ import math
 
 os.environ['TZ'] = 'America/Sao_Paulodate'
 
-QUEST5_IN_LINE_CMD_SYNTAX=("python3 lista2_exec <module> <parameters>\n",
+ALPHABET="abcdefghijklmnopqrstuvwxyz"
+
+QUEST0_IN_LINE_CMD_SYNTAX=("python3 lista2_exec <question_number> <parameters>\n",
                     "\n",
-                    "To execute the experiment identified by <module>, use:\n",
-                    "python3 lista2_exec.py questao5 <uniform|montecarlo> <num_exec>\n" + 
+                    "To execute the experiment, please inform the <question_number> and the parameters, use:\n",
+                    "python3 lista2_exec.py <question_number> <parameters>\n" + 
                     "\n",
                     "Examples:",
-                    "python3 lista2_exec.py questao5 uniform 100",
-                    "python3 lista2_exec.py questao5 montecarlo 1000 "
+                    "python3 lista2_exec.py 5 uniform 100",
+                    "python3 lista2_exec.py 7 10 "
                     )
 
-QUEST6_IN_LINE_CMD_SYNTAX=("python3 lista2_exec <module> <parameters>\n",
+QUEST5_IN_LINE_CMD_SYNTAX=("python3 lista2_exec <question_number> <parameters>\n",
                     "\n",
-                    "To execute the experiment identified by <module>, use:\n",
-                    "python3 lista2_exec.py questao6 <uniform|montecarlo> <num_exec>\n" + 
+                    "To execute the experiment identified by <question_number>, use:\n",
+                    "python3 lista2_exec.py 5 <uniform|montecarlo> <num_exec>\n" + 
                     "\n",
                     "Examples:",
-                    "python3 lista2_exec.py questao6 uniform 100",
-                    "python3 lista2_exec.py questao6 montecarlo 1000 "
+                    "python3 lista2_exec.py 5 uniform 100",
+                    "python3 lista2_exec.py 5 montecarlo 1000 "
                     )
 
-IN_LINE_CMD_SYNTAX={ "questao5" : QUEST5_IN_LINE_CMD_SYNTAX,
-                     "questao6" : QUEST6_IN_LINE_CMD_SYNTAX
+QUEST7_IN_LINE_CMD_SYNTAX=("python3 lista2_exec <question_number> <parameters>\n",
+                    "\n",
+                    "To execute the experiment identified by <question_number>, use:\n",
+                    "python3 lista2_exec.py 7 <uniform|montecarlo> <num_exec>\n" + 
+                    "\n",
+                    "Examples:",
+                    "python3 lista2_exec.py 7 uniform 100",
+                    "python3 lista2_exec.py 7 montecarlo 1000 "
+                    )
+
+QUEST9_IN_LINE_CMD_SYNTAX=("python3 lista2_exec <question_number> <parameters>\n",
+                    "\n",
+                    "To execute the experiment identified by <question_number>, use:\n",
+                    "python3 lista2_exec.py 9 <m1|m2> <num_exec>\n" + 
+                    "\n",
+                    "Examples:",
+                    "python3 lista2_exec.py 9 m1 100",
+                    "python3 lista2_exec.py 9 m2 1000 "
+                    )
+
+IN_LINE_CMD_SYNTAX={ "0" : QUEST0_IN_LINE_CMD_SYNTAX,
+                     "5" : QUEST5_IN_LINE_CMD_SYNTAX,
+                     "7" : QUEST7_IN_LINE_CMD_SYNTAX,
+                     "9" : QUEST9_IN_LINE_CMD_SYNTAX
                     }
 
 class CmdSyntaxError(Exception):
@@ -40,7 +64,7 @@ class CmdSyntaxError(Exception):
         print_syntax_error(module,message)
 
     def __str__(self):
-        return f'{self.salary} -> {self.message}'        
+        return f'{self.module} -> {self.message}'        
         
     @property
     def module(self):
@@ -61,7 +85,11 @@ def get_scope_str(scope):
         scope_str = scope_str + "|" + s  
     return scope_str[1:]
 
-
+def display_progress(milestone,pace=0):
+    if milestone == '':
+        milestone='.'
+    if (pace == 0) or ( (pace * 100) % 10 == 0 ) :        
+        print(milestone, end='', flush=True)
 
 def ntimes(n):
     return it.repeat(False, n)

@@ -1,118 +1,116 @@
-from ctypes import sizeof
+'''
+Created on 3 de ago de 2019
+
+Runner for the Experiments
+
+@author: victorx
+'''
+
+import matplotlib
+import log
+import logging
+import common
 import sys
-import numpy as np
-import matplotlib.pyplot as plt
+import console
 from common import CmdSyntaxError
 
-def uniform_sample_gen(num_exec):
+import lista2_engines
 
+def save_mcmc_run_log(log_id,argv):
+    saved = False
     try:
-
-        k = 0
-        s = 0
-        while( s <= 1 ):
-            u = np.random.uniform(0.0,1.0)
-            s = s + u
-            k = k + 1
-
+        path = "./work/"
+        common.make_dirs(path)
+        filename = "mcmc_run_.log"
+        filenamepath = path + filename
+        with open(filenamepath, "a+") as logs_file:
+            logs_file.write("["+common.getLOGdatetime()+"]")
+            logs_file.write("["+log_id+"]")
+            logs_file.write("[")
+            for arg in argv:
+                logs_file.write(str(arg)+" ")
+            logs_file.write("]")
+            logs_file.write("\n")
+    
+        saved = True
+        
     except Exception as err:
-        print('Error:'+str(err))
+        print("[EXPT]save_mcmc_run_log")
+        print(err)
     finally:
-        print('[{}]Unif:S({})=>V({})'.format(str(num_exec),str(s),str(k)))
-        return k
-
-def montecarlo_sample_gen(num_exec):
-
-    try:
-
-        k = 0
-        s = 0
-        while( s <= 1 ):
-            u = np.random.uniform(0.0,1.0)
-            s = s + u
-            k = k + 1
-
-    except Exception as err:
-        print('Error:'+str(err))
-    finally:
-        print ("V({}):{}".format(str(num_exec),str(k)))
-        return k
-
-def plot_results(results,num_exec,results_title='Frequency Histogram'):
-
-    plot_result = False
-    try:
-
-        max_value = np.max(results)
-        #%matplotlib inline
-        plt.rcParams.update({'figure.figsize':(7,5), 'figure.dpi':100})
-        #count, bins, ignored = plt.hist(results, bins=max_value, density=True)
-        count, bins, ignored = plt.hist(results, bins=max_value, density=False)
-        plt.gca().set(title=results_title, ylabel='Frequency');
-        plt.show()
-
-        plot_result = True
-    except Exception as err:
-        print('Error:'+str(err))
-    finally:
-        return plot_result
-
+        return saved
 
 def main(argc, argv):
 
-    print ("Lista2_Exec:VictorXavier")
+    exp_id = log.timestamp
     exit_code = 0
 
     try:
+    
+        save_mcmc_run_log(exp_id,["START"])
+    
+        if matplotlib.get_backend() == None:
+            matplotlib.use("Agg")
+    
+        #
+        console.clear()
 
+        save_mcmc_run_log(exp_id,["PARAMS"])
+    
+        save_mcmc_run_log(exp_id,argv)
+        
+        save_mcmc_run_log(exp_id,["HEADER"])
+        
+        #main header
+        log.info("***********************************************************")
+        log.info("*** MCMC Helper                                         ***")
+        log.info("*** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***")
+        log.info("*** Aluno: Victor de Almeida Xavier                     ***")
+        log.info("***********************************************************")
+    
+        log.info('[INIT]Module:Experiment')
+        
         #get experiment identification from in-line params    
-        if argc < 2:
-            raise CmdSyntaxError("questao5","Por favor informe os parâmetros para continuar a execução:")
+        if argc < 1:
+            raise CmdSyntaxError("0","Por favor informe o número da questão e parâmetros para continuar a execução.")
 
-        quest_item = argv[1]
-        if quest_item != "uniform" and quest_item != "montecarlo":
-            raise CmdSyntaxError("questao5","Por favor informe uniform ou montecarlo para continuar a execução:")
+        question_number = argv[0]
+        if question_number == "5":
+            exit_code = lista2_engines.exec_quest5(argc,argv) 
+        elif question_number == "7":
+            exit_code = lista2_engines.exec_quest7(argc,argv) 
+        elif question_number == "9":
+            exit_code = lista2_engines.exec_quest9(argc,argv) 
+        else:
+            raise CmdSyntaxError("0","Por favor informe 5, 7 ou 9 para o número da questão.")
 
-        num_exec = argv[2]
-        if int(num_exec) <= 0:
-            raise CmdSyntaxError("questao5","Por favor informe num_exec > 0 para continuar a execução:")
-
-        print("SampleGen:"+quest_item)
-        print("Numero de execuções:"+num_exec)
-        results = list()
-        for i in range(1,int(num_exec)+1):
-            if quest_item == "uniform":
-                sample = uniform_sample_gen(i)
-            else:
-                sample = montecarlo_sample_gen(i)
-
-            if sample > -1:
-               results.append(sample)
-
-        #print results
-        if len(results) > 0:
-            if not plot_results(results,int(num_exec)):
-                exit_code = 3
 
     except CmdSyntaxError as err:
+        save_mcmc_run_log(exp_id,["SYNTAX_ERROR"])
+        log.error("[SNTX]" + str(err.module) + ":" + str(err.message) )
         exit_code = 1
-        print('Syntax Error:'+str(err))
     except Exception as err:
+        save_mcmc_run_log(exp_id,["EXCEPTION_ERROR"])
+        log.error(str(err))
+        log.error('[EXPT]main')
+        log.error(err)
         exit_code = 2
-        print('Error:'+str(err))
     finally:
+        save_mcmc_run_log(exp_id,["FINISH"])
+        log.info('[DONE]Module:Experiment')
         return exit_code
-
-    
+        
 if __name__ == '__main__':
     argv = sys.argv[1:]
     argc = len(argv)
-
+    log.setloglevel(logging.INFO)
     gettrace = getattr(sys, 'gettrace', None)
     
     if gettrace is None:
         print('No sys.gettrace')
     elif gettrace():
         print('Debugging...')
+        log.setloglevel(logging.DEBUG)
 
-    main(argc, argv)
+    exit_code = main(argc, argv)
+    exit(exit_code)

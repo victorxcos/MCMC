@@ -1,0 +1,24 @@
+2022-05-02 19:59:18,079 - INFO - ***********************************************************
+2022-05-02 19:59:18,079 - INFO - *** MCMC Helper                                         ***
+2022-05-02 19:59:18,079 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-02 19:59:18,079 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-02 19:59:18,080 - INFO - ***********************************************************
+2022-05-02 19:59:18,080 - INFO - [INIT]Module:Experiment
+2022-05-02 19:59:18,080 - INFO - Experimentos da Questão 7
+2022-05-02 19:59:18,080 - INFO - SampleGen:montecarlo
+2022-05-02 19:59:18,080 - INFO - Numero de execuções:5
+2022-05-02 19:59:18,080 - INFO - Tamanho da sequencia:2
+2022-05-02 19:59:53,101 - INFO - Found:http://www.fe.ufrj.br
+2022-05-02 19:59:53,102 - INFO - [1]MonteCarloWWW:Count(37):Last(http://www.fe.ufrj.br)
+2022-05-02 20:02:25,536 - INFO - Found:http://www.me.ufrj.br
+2022-05-02 20:02:25,536 - INFO - [2]MonteCarloWWW:Count(178):Last(http://www.me.ufrj.br)
+2022-05-02 20:03:37,338 - INFO - Found:http://www.me.ufrj.br
+2022-05-02 20:03:37,339 - INFO - [3]MonteCarloWWW:Count(141):Last(http://www.me.ufrj.br)
+2022-05-02 20:04:53,328 - INFO - Found:http://www.fe.ufrj.br
+2022-05-02 20:04:53,328 - INFO - [4]MonteCarloWWW:Count(140):Last(http://www.fe.ufrj.br)
+2022-05-02 20:06:14,456 - INFO - Found:http://www.me.ufrj.br
+2022-05-02 20:06:14,456 - INFO - [5]MonteCarloWWW:Count(219):Last(http://www.me.ufrj.br)
+2022-05-02 20:06:14,457 - ERROR - cannot perform reduce with flexible type
+2022-05-02 20:06:14,457 - ERROR - [EXPT]plot_results
+2022-05-02 20:06:14,457 - ERROR - cannot perform reduce with flexible type
+2022-05-02 20:06:14,458 - INFO - [DONE]Module:Experiment
