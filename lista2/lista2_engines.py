@@ -198,6 +198,11 @@ def plot_results(plot_type,results,num_exec):
         elif plot_type == "datapoints":
             plt.plot(results[0], results[1], 'ro')
             plt.gca().set(title="Data points", ylabel='y');
+        elif plot_type == "errorcomparison":
+            plt.plot(results[0], results[1], 'ro', results[0], results[2], 'bs')
+            plt.xlabel('method 1', fontsize=14, color='red')
+            plt.xlabel('method 2', fontsize=14, color='blue')
+            plt.gca().set(title="Error data points", ylabel='y');
         else:
             plt.plot(results)
             plt.gca().set(title="General Plot");
@@ -329,7 +334,7 @@ def exec_quest9(argc,argv):
             raise CmdSyntaxError("9","Por favor informe os parâmetros para continuar a execução:")
 
         quest_item = argv[1]
-        if quest_item != "m1" and quest_item != "m2":
+        if quest_item != "m1" and quest_item != "m2" and quest_item != "m1m2":
             raise CmdSyntaxError("9","Por favor informe m1 ou m2 para continuar a execução:")
 
         num_exec = argv[2]
@@ -340,25 +345,54 @@ def exec_quest9(argc,argv):
         log.info("Numero de execuções:"+num_exec)
         common.display_progress(">")
         series = list()
-        results = list()
-        for i in range(1,int(num_exec)+1):
-            num_samples = 10 ** i
-            if quest_item == "m1":
-                sample = integral_sample_gen("m1",num_samples,integral_value)
-                common.display_progress("*")
-            else:
-                sample = integral_sample_gen("m2",num_samples,integral_value)
-                common.display_progress("*")
+        
+        if quest_item == "m1m2":
 
-            if sample[0] > -1:
-                series.append(int(i))
-                results.append(sample[2])
+            results_m1 = list()
+            results_m2 = list()
 
-        common.display_progress("<")
-        #print results
-        if len(results) > 0:
-            if not plot_results("datapoints",[series,results],int(num_exec)):
-                ret_code = 3
+            for i in range(1,int(num_exec)+1):
+                num_samples = 10 ** i
+                sample_m1 = integral_sample_gen("m1",num_samples,integral_value)
+                common.display_progress("*")
+                sample_m2 = integral_sample_gen("m2",num_samples,integral_value)
+                common.display_progress("*")                
+    
+                if sample_m1[0] > -1 and sample_m2[0] > -1:
+                    series.append(int(i))
+                    results_m1.append(sample_m1[2])
+                    results_m2.append(sample_m2[2])
+
+            common.display_progress("<")
+            #print results
+            if len(results_m1) > 0:
+                if not plot_results("errorcomparision",[series,results_m1,results_m2],int(num_exec)):
+                    ret_code = 3
+            
+        else:
+        
+            results = list()
+            for i in range(1,int(num_exec)+1):
+                num_samples = 10 ** i
+                if quest_item == "m1":
+                    sample = integral_sample_gen("m1",num_samples,integral_value)
+                    common.display_progress("*")
+                elif quest_item == "m2":
+                    sample = integral_sample_gen("m2",num_samples,integral_value)
+                    common.display_progress("*")
+                else:
+                    sample = integral_sample_gen("m2",num_samples,integral_value)
+                    common.display_progress("*")
+                    
+                if sample[0] > -1:
+                    series.append(int(i))
+                    results.append(sample[2])
+
+            common.display_progress("<")
+            #print results
+            if len(results) > 0:
+                if not plot_results("datapoints",[series,results],int(num_exec)):
+                    ret_code = 3
 
     except CmdSyntaxError as err:
         ret_code = 1
