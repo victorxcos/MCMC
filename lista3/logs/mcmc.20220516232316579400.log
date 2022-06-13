@@ -1,0 +1,16 @@
+2022-05-16 23:23:17,341 - INFO - ***********************************************************
+2022-05-16 23:23:17,341 - INFO - *** MCMC Helper                                         ***
+2022-05-16 23:23:17,341 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-16 23:23:17,342 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-16 23:23:17,342 - INFO - ***********************************************************
+2022-05-16 23:23:17,342 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-16 23:23:17,342 - INFO - ***********************************************************
+2022-05-16 23:23:17,342 - INFO - [INIT]Module:Experiment
+2022-05-16 23:23:17,342 - INFO - Experimentos da Questão 2
+2022-05-16 23:23:17,343 - INFO - Item:det_pi
+2022-05-16 23:23:17,343 - INFO - Grafo:ring
+2022-05-16 23:23:17,343 - INFO - Número de vértices:100
+2022-05-16 23:23:17,343 - INFO - Número de execuções:1
+2022-05-16 23:23:27,347 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-16 23:23:35,447 - ERROR - _unary_dispatcher() got an unexpected keyword argument 'left'
+2022-05-16 23:23:39,895 - ERROR - [EXPT]get_stationary_vector

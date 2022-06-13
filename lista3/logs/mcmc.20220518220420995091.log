@@ -1,0 +1,18 @@
+2022-05-19 01:04:23,135 - INFO - ***********************************************************
+2022-05-19 01:04:23,136 - INFO - *** MCMC Helper                                         ***
+2022-05-19 01:04:23,136 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-19 01:04:23,136 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-19 01:04:23,136 - INFO - ***********************************************************
+2022-05-19 01:04:23,137 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-19 01:04:23,137 - INFO - ***********************************************************
+2022-05-19 01:04:23,137 - INFO - [INIT]Module:Experiment
+2022-05-19 01:04:23,138 - INFO - Experimentos da Questão 2
+2022-05-19 01:04:23,138 - INFO - Item:pi_t
+2022-05-19 01:04:23,138 - INFO - Grafo:grid2D
+2022-05-19 01:04:23,138 - INFO - Número de vértices:100
+2022-05-19 01:04:23,139 - INFO - Número de execuções:10
+2022-05-19 01:05:03,640 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-19 01:05:09,456 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:07:57,675 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-19 01:07:59,024 - ERROR - [EXPT]get_distribution_vector
+2022-05-19 01:08:14,446 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()

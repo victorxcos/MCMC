@@ -1,0 +1,17 @@
+2022-05-23 02:38:02,973 - INFO - ***********************************************************
+2022-05-23 02:38:02,974 - INFO - *** MCMC Helper                                         ***
+2022-05-23 02:38:02,974 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-23 02:38:02,974 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-23 02:38:02,974 - INFO - ***********************************************************
+2022-05-23 02:38:02,975 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-23 02:38:02,975 - INFO - ***********************************************************
+2022-05-23 02:38:02,975 - INFO - [INIT]Module:Experiment
+2022-05-23 02:38:02,975 - INFO - Experimentos da Questão 2
+2022-05-23 02:38:11,753 - INFO - Item:dtv_pi
+2022-05-23 02:38:11,971 - INFO - Grafo:all
+2022-05-23 02:38:12,375 - INFO - Número de vértices:100
+2022-05-23 02:38:12,840 - INFO - Número de execuções:1000
+2022-05-23 02:38:16,364 - ERROR - could not convert string to float: '-plot'
+2022-05-23 02:38:16,365 - ERROR - [EXPT]get_pi_0_from_str
+2022-05-23 02:38:16,369 - ERROR - could not convert string to float: '-plot'
+2022-05-23 02:38:16,370 - INFO - [100]get_pi_0_from_str:-plot

@@ -1,0 +1,15 @@
+2022-05-16 23:27:29,446 - INFO - ***********************************************************
+2022-05-16 23:27:29,447 - INFO - *** MCMC Helper                                         ***
+2022-05-16 23:27:29,447 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-16 23:27:29,448 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-16 23:27:29,448 - INFO - ***********************************************************
+2022-05-16 23:27:29,448 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-16 23:27:29,448 - INFO - ***********************************************************
+2022-05-16 23:27:29,448 - INFO - [INIT]Module:Experiment
+2022-05-16 23:27:29,449 - INFO - Experimentos da Questão 2
+2022-05-16 23:27:29,449 - INFO - Item:det_pi
+2022-05-16 23:27:29,449 - INFO - Grafo:ring
+2022-05-16 23:27:29,449 - INFO - Número de vértices:100
+2022-05-16 23:27:29,449 - INFO - Número de execuções:1
+2022-05-16 23:27:36,230 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-16 23:32:27,643 - ERROR - 'numpy.ndarray' object has no attribute 'prob_matrix'

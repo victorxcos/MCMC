@@ -1,0 +1,37 @@
+2022-05-18 20:37:30,198 - INFO - ***********************************************************
+2022-05-18 20:37:30,199 - INFO - *** MCMC Helper                                         ***
+2022-05-18 20:37:30,200 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-18 20:37:30,200 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-18 20:37:30,200 - INFO - ***********************************************************
+2022-05-18 20:37:30,200 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-18 20:37:30,201 - INFO - ***********************************************************
+2022-05-18 20:37:30,201 - INFO - [INIT]Module:Experiment
+2022-05-18 20:37:30,202 - INFO - Experimentos da Questão 2
+2022-05-18 20:37:30,202 - INFO - Item:pi_t
+2022-05-18 20:37:30,203 - INFO - Grafo:grid2D
+2022-05-18 20:37:30,203 - INFO - Número de vértices:100
+2022-05-18 20:37:30,203 - INFO - Número de execuções:10
+2022-05-18 20:37:36,335 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:37:40,507 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:37:49,447 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:38:51,633 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:38:59,178 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:39:09,439 - ERROR - Checksum error
+2022-05-18 20:39:10,272 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(False)
+2022-05-18 20:39:12,180 - ERROR - Failed executing distribution vector pi_t in step 2.
+2022-05-18 20:39:15,219 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:39:20,127 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:40:00,557 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:40:00,568 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:40:08,512 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:40:08,513 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:40:09,845 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:40:09,846 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:40:11,167 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:40:11,168 - ERROR - Checksum error
+2022-05-18 20:40:11,169 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(False)
+2022-05-18 20:40:11,169 - ERROR - Failed executing distribution vector pi_t in step 7.
+2022-05-18 20:40:13,113 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:40:13,114 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 20:40:18,564 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 20:40:18,565 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)

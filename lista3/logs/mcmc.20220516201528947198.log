@@ -1,0 +1,18 @@
+2022-05-16 20:15:29,691 - INFO - ***********************************************************
+2022-05-16 20:15:29,692 - INFO - *** MCMC Helper                                         ***
+2022-05-16 20:15:29,692 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-16 20:15:29,692 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-16 20:15:29,692 - INFO - ***********************************************************
+2022-05-16 20:15:29,692 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-16 20:15:29,692 - INFO - ***********************************************************
+2022-05-16 20:15:29,692 - INFO - [INIT]Module:Experiment
+2022-05-16 20:15:29,693 - INFO - Experimentos da Questão 2
+2022-05-16 20:15:51,607 - INFO - Item:genP
+2022-05-16 20:15:53,416 - INFO - Grafo:ring
+2022-05-16 20:15:55,162 - INFO - Número de vértices:100
+2022-05-16 20:15:57,021 - INFO - Número de execuções:1
+2022-05-16 20:16:32,445 - ERROR - Checksum error
+2022-05-16 20:16:52,596 - ERROR - tuple index out of range
+2022-05-16 20:16:52,960 - ERROR - [EXPT]l3_exec_quest2
+2022-05-16 20:16:56,284 - ERROR - tuple index out of range
+2022-05-16 20:17:04,716 - INFO - [DONE]Module:Experiment

@@ -1,0 +1,60 @@
+2022-05-18 21:44:47,367 - INFO - ***********************************************************
+2022-05-18 21:44:47,368 - INFO - *** MCMC Helper                                         ***
+2022-05-18 21:44:47,368 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-18 21:44:47,368 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-18 21:44:47,368 - INFO - ***********************************************************
+2022-05-18 21:44:47,368 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-18 21:44:47,368 - INFO - ***********************************************************
+2022-05-18 21:44:47,368 - INFO - [INIT]Module:Experiment
+2022-05-18 21:44:47,369 - INFO - Experimentos da Questão 2
+2022-05-18 21:44:47,369 - INFO - Item:pi_t
+2022-05-18 21:44:47,370 - INFO - Grafo:grid2D
+2022-05-18 21:44:47,370 - INFO - Número de vértices:100
+2022-05-18 21:44:47,370 - INFO - Número de execuções:10
+2022-05-18 21:45:04,311 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 21:45:04,312 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 21:45:44,335 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:45:44,336 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:45:44,336 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:45:44,336 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:45:46,339 - ERROR - Failed executing distribution vector pi_t in step 1.
+2022-05-18 21:45:47,440 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:45:47,440 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:45:47,441 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:45:47,442 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:45:48,516 - ERROR - Failed executing distribution vector pi_t in step 2.
+2022-05-18 21:46:23,532 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,532 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,533 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,533 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,533 - ERROR - Failed executing distribution vector pi_t in step 3.
+2022-05-18 21:46:23,535 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,536 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,536 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,536 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,537 - ERROR - Failed executing distribution vector pi_t in step 4.
+2022-05-18 21:46:23,538 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,539 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,539 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,539 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,539 - ERROR - Failed executing distribution vector pi_t in step 5.
+2022-05-18 21:46:23,540 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,540 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,540 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,540 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,541 - ERROR - Failed executing distribution vector pi_t in step 6.
+2022-05-18 21:46:23,541 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,542 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,542 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,542 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,542 - ERROR - Failed executing distribution vector pi_t in step 7.
+2022-05-18 21:46:23,543 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,543 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,544 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,544 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,544 - ERROR - Failed executing distribution vector pi_t in step 8.
+2022-05-18 21:46:23,545 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,545 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:46:23,545 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:46:23,545 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:46:23,545 - ERROR - Failed executing distribution vector pi_t in step 9.

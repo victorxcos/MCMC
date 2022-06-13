@@ -1,0 +1,15 @@
+2022-05-17 23:52:43,343 - INFO - ***********************************************************
+2022-05-17 23:52:43,344 - INFO - *** MCMC Helper                                         ***
+2022-05-17 23:52:43,344 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-17 23:52:43,345 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-17 23:52:43,345 - INFO - ***********************************************************
+2022-05-17 23:52:43,345 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-17 23:52:43,345 - INFO - ***********************************************************
+2022-05-17 23:52:43,346 - INFO - [INIT]Module:Experiment
+2022-05-17 23:52:43,347 - INFO - Experimentos da Questão 2
+2022-05-17 23:52:43,347 - INFO - Item:genP
+2022-05-17 23:52:43,348 - INFO - Grafo:grid2D
+2022-05-17 23:52:43,348 - INFO - Número de vértices:100
+2022-05-17 23:52:43,348 - INFO - Número de execuções:1
+2022-05-17 23:54:13,053 - ERROR - 'float' object has no attribute 'jsqr'
+2022-05-17 23:54:13,221 - ERROR - [EXPT]get_transition_prob_matrix

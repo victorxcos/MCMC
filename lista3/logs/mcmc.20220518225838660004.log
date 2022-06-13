@@ -1,0 +1,17 @@
+2022-05-19 01:58:40,365 - INFO - ***********************************************************
+2022-05-19 01:58:40,366 - INFO - *** MCMC Helper                                         ***
+2022-05-19 01:58:40,367 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-19 01:58:40,367 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-19 01:58:40,367 - INFO - ***********************************************************
+2022-05-19 01:58:40,367 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-19 01:58:40,367 - INFO - ***********************************************************
+2022-05-19 01:58:40,367 - INFO - [INIT]Module:Experiment
+2022-05-19 01:58:40,368 - INFO - Experimentos da Questão 2
+2022-05-19 01:58:40,368 - INFO - Item:dtv_pi
+2022-05-19 01:58:40,368 - INFO - Grafo:grid2D
+2022-05-19 01:58:40,368 - INFO - Número de vértices:100
+2022-05-19 01:58:40,369 - INFO - Número de execuções:10
+2022-05-19 01:58:46,429 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-19 01:58:46,458 - INFO - [100]get_stationary_vector:Gen(True):CheckSum(True)
+2022-05-19 01:58:48,075 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:59:19,908 - ERROR - cannot switch from manual field specification to automatic field numbering

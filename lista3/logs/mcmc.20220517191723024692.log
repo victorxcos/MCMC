@@ -1,0 +1,17 @@
+2022-05-17 19:17:23,960 - INFO - ***********************************************************
+2022-05-17 19:17:23,962 - INFO - *** MCMC Helper                                         ***
+2022-05-17 19:17:23,962 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-17 19:17:23,962 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-17 19:17:23,962 - INFO - ***********************************************************
+2022-05-17 19:17:23,963 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-17 19:17:23,963 - INFO - ***********************************************************
+2022-05-17 19:17:23,963 - INFO - [INIT]Module:Experiment
+2022-05-17 19:17:23,964 - INFO - Experimentos da Questão 2
+2022-05-17 19:17:23,965 - INFO - Item:genP
+2022-05-17 19:17:23,965 - INFO - Grafo:bin_tree
+2022-05-17 19:17:23,965 - INFO - Número de vértices:100
+2022-05-17 19:17:23,966 - INFO - Número de execuções:1
+2022-05-17 19:17:23,966 - ERROR - list assignment index out of range
+2022-05-17 19:17:23,967 - ERROR - [EXPT]l3_exec_quest2
+2022-05-17 19:17:23,967 - ERROR - list assignment index out of range
+2022-05-17 19:17:23,967 - INFO - [DONE]Module:Experiment

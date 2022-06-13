@@ -1,0 +1,51 @@
+2022-05-24 07:14:23,908 - INFO - ***********************************************************
+2022-05-24 07:14:23,908 - INFO - *** MCMC Helper                                         ***
+2022-05-24 07:14:23,909 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-24 07:14:23,909 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-24 07:14:23,909 - INFO - ***********************************************************
+2022-05-24 07:14:23,909 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-24 07:14:23,909 - INFO - ***********************************************************
+2022-05-24 07:14:23,909 - INFO - [INIT]Module:Experiment
+2022-05-24 07:14:23,910 - INFO - Experimentos da Questão 4
+2022-05-24 07:14:26,558 - INFO - Item:dM_t
+2022-05-24 07:14:26,558 - INFO - Probabilidade (p):all
+2022-05-24 07:14:26,559 - INFO - Número de passos:10
+2022-05-24 07:14:26,559 - INFO - Número de execuções:1
+2022-05-24 07:14:26,559 - INFO - Plotar resultados? True
+2022-05-24 07:14:26,559 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,559 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,560 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,560 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,560 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,560 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,560 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,560 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,561 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,561 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,562 - INFO - dM_t:2.0
+2022-05-24 07:14:26,562 - INFO - [20220524041422360207]save_latice2D_samples:mcmc_dM_t_0.25_10_1_.txt
+2022-05-24 07:14:26,562 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,563 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,563 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,563 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,563 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,563 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,563 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,564 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,564 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,564 - INFO - [[1, 1]]get_latice2D_transition:[1, 2]
+2022-05-24 07:14:26,564 - INFO - dM_t:3.0
+2022-05-24 07:14:26,564 - INFO - [20220524041422360207]save_latice2D_samples:mcmc_dM_t_0.35_10_1_.txt
+2022-05-24 07:14:26,565 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,565 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,565 - INFO - [[1, 1]]get_latice2D_transition:[1, 2]
+2022-05-24 07:14:26,565 - INFO - [[1, 2]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,566 - INFO - [[1, 1]]get_latice2D_transition:[2, 1]
+2022-05-24 07:14:26,566 - INFO - [[2, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,566 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,566 - INFO - [[1, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,566 - INFO - [[1, 1]]get_latice2D_transition:[2, 1]
+2022-05-24 07:14:26,567 - INFO - [[2, 1]]get_latice2D_transition:[1, 1]
+2022-05-24 07:14:26,567 - INFO - dM_t:2.0
+2022-05-24 07:14:26,568 - INFO - [20220524041422360207]save_latice2D_samples:mcmc_dM_t_0.45_10_1_.txt
+2022-05-24 07:14:26,568 - INFO - [DONE]Module:Experiment

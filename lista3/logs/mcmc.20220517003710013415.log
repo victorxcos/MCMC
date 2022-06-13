@@ -1,0 +1,14 @@
+2022-05-17 00:37:11,021 - INFO - ***********************************************************
+2022-05-17 00:37:11,023 - INFO - *** MCMC Helper                                         ***
+2022-05-17 00:37:11,023 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-17 00:37:11,023 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-17 00:37:11,024 - INFO - ***********************************************************
+2022-05-17 00:37:11,024 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-17 00:37:11,024 - INFO - ***********************************************************
+2022-05-17 00:37:11,024 - INFO - [INIT]Module:Experiment
+2022-05-17 00:37:11,025 - INFO - Experimentos da Questão 2
+2022-05-17 00:37:11,026 - INFO - Item:genP
+2022-05-17 00:37:11,026 - INFO - Grafo:bin_tree
+2022-05-17 00:37:11,026 - INFO - Número de vértices:100
+2022-05-17 00:37:11,027 - INFO - Número de execuções:1
+2022-05-17 00:47:35,342 - ERROR - Checksum error

@@ -1,0 +1,23 @@
+2022-05-19 01:53:09,490 - INFO - ***********************************************************
+2022-05-19 01:53:09,491 - INFO - *** MCMC Helper                                         ***
+2022-05-19 01:53:09,491 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-19 01:53:09,491 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-19 01:53:09,491 - INFO - ***********************************************************
+2022-05-19 01:53:09,491 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-19 01:53:09,491 - INFO - ***********************************************************
+2022-05-19 01:53:09,491 - INFO - [INIT]Module:Experiment
+2022-05-19 01:53:09,492 - INFO - Experimentos da Questão 2
+2022-05-19 01:53:09,492 - INFO - Item:dtv_pi
+2022-05-19 01:53:09,492 - INFO - Grafo:grid2D
+2022-05-19 01:53:09,492 - INFO - Número de vértices:100
+2022-05-19 01:53:09,492 - INFO - Número de execuções:10
+2022-05-19 01:53:31,948 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-19 01:53:45,355 - INFO - [100]get_stationary_vector:Gen(True):CheckSum(True)
+2022-05-19 01:54:02,181 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:54:02,192 - ERROR - only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+2022-05-19 01:54:02,192 - ERROR - [EXPT]get_dtv_pi
+2022-05-19 01:54:02,192 - ERROR - only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+2022-05-19 01:54:02,193 - ERROR - cannot switch from manual field specification to automatic field numbering
+2022-05-19 01:54:02,193 - ERROR - [EXPT]l3_exec_quest2
+2022-05-19 01:54:02,194 - ERROR - cannot switch from manual field specification to automatic field numbering
+2022-05-19 01:54:02,195 - INFO - [DONE]Module:Experiment

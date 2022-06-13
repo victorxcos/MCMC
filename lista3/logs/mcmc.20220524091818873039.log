@@ -1,0 +1,20 @@
+2022-05-24 12:18:20,337 - INFO - ***********************************************************
+2022-05-24 12:18:20,339 - INFO - *** MCMC Helper                                         ***
+2022-05-24 12:18:20,339 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-24 12:18:20,339 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-24 12:18:20,339 - INFO - ***********************************************************
+2022-05-24 12:18:20,339 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-24 12:18:20,339 - INFO - ***********************************************************
+2022-05-24 12:18:20,339 - INFO - [INIT]Module:Experiment
+2022-05-24 12:18:42,821 - INFO - Experimentos da Questão 3
+2022-05-24 12:18:42,821 - INFO - Item:det_pi
+2022-05-24 12:18:42,822 - INFO - Probabilidade (p):all
+2022-05-24 12:18:42,822 - INFO - Número de vértices:10
+2022-05-24 12:18:42,822 - INFO - Número de execuções:1
+2022-05-24 12:18:42,823 - INFO - Plotar resultados? True
+2022-05-24 12:18:49,238 - INFO - [10]get_all_to_one_prob_matrix:Gen(True):CheckSum(True)
+2022-05-24 12:18:49,843 - INFO - [10]get_matrix_stationary_vector:Gen(True):CheckSum(True)
+2022-05-24 12:18:50,381 - INFO - [20220524091818873039]save_stationary_vector:mcmc_det_pi_0.25_10_.txt
+2022-05-24 12:18:51,696 - INFO - probabilidade:0.25
+2022-05-24 12:18:54,834 - ERROR - only size-1 arrays can be converted to Python scalars
+2022-05-24 12:18:55,077 - ERROR - [EXPT]l3_exec_quest2

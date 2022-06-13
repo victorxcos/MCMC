@@ -1,0 +1,22 @@
+2022-05-24 12:15:55,759 - INFO - ***********************************************************
+2022-05-24 12:15:55,759 - INFO - *** MCMC Helper                                         ***
+2022-05-24 12:15:55,760 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-24 12:15:55,760 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-24 12:15:55,760 - INFO - ***********************************************************
+2022-05-24 12:15:55,760 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-24 12:15:55,760 - INFO - ***********************************************************
+2022-05-24 12:15:55,760 - INFO - [INIT]Module:Experiment
+2022-05-24 12:16:05,814 - INFO - Experimentos da Questão 3
+2022-05-24 12:16:10,835 - INFO - Item:det_pi
+2022-05-24 12:16:11,256 - INFO - Probabilidade (p):all
+2022-05-24 12:16:11,467 - INFO - Número de vértices:10
+2022-05-24 12:16:11,636 - INFO - Número de execuções:1
+2022-05-24 12:16:12,223 - INFO - Plotar resultados? True
+2022-05-24 12:16:16,895 - INFO - [10]get_all_to_one_prob_matrix:Gen(True):CheckSum(True)
+2022-05-24 12:16:23,658 - INFO - [10]get_matrix_stationary_vector:Gen(True):CheckSum(True)
+2022-05-24 12:17:02,325 - INFO - [20220524091554039428]save_stationary_vector:mcmc_det_pi_0.25_10_.txt
+2022-05-24 12:17:05,277 - INFO - probabilidade:0.25
+2022-05-24 12:17:07,436 - INFO - stationary_vector(10):[7.50000000e-01+0.j 1.87500000e-01+0.j 4.68750000e-02+0.j
+ 1.17187500e-02+0.j 2.92968750e-03+0.j 7.32421875e-04+0.j
+ 1.83105469e-04+0.j 4.57763672e-05+0.j 1.14440918e-05+0.j
+ 3.81469727e-06+0.j]

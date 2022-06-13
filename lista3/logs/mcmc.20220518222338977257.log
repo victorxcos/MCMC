@@ -1,0 +1,26 @@
+2022-05-19 01:23:40,613 - INFO - ***********************************************************
+2022-05-19 01:23:40,614 - INFO - *** MCMC Helper                                         ***
+2022-05-19 01:23:40,614 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-19 01:23:40,614 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-19 01:23:40,614 - INFO - ***********************************************************
+2022-05-19 01:23:40,614 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-19 01:23:40,614 - INFO - ***********************************************************
+2022-05-19 01:23:40,614 - INFO - [INIT]Module:Experiment
+2022-05-19 01:23:40,615 - INFO - Experimentos da Questão 2
+2022-05-19 01:23:40,615 - INFO - Item:pi_t
+2022-05-19 01:23:40,616 - INFO - Grafo:grid2D
+2022-05-19 01:23:40,616 - INFO - Número de vértices:100
+2022-05-19 01:23:40,616 - INFO - Número de execuções:10
+2022-05-19 01:24:04,736 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-19 01:24:08,668 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:24:28,521 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:24:44,754 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:06,413 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:09,023 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:10,720 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:12,213 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:14,045 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:15,252 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:16,628 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 01:25:38,950 - INFO - [20220518222338977257]save_distribution_vector:mcmc_pi_t_grid2D_100_10_.csv
+2022-05-19 01:25:46,636 - INFO - [DONE]Module:Experiment

@@ -1,0 +1,20 @@
+2022-05-18 21:48:18,870 - INFO - ***********************************************************
+2022-05-18 21:48:18,871 - INFO - *** MCMC Helper                                         ***
+2022-05-18 21:48:18,871 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-18 21:48:18,872 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-18 21:48:18,872 - INFO - ***********************************************************
+2022-05-18 21:48:18,872 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-18 21:48:18,872 - INFO - ***********************************************************
+2022-05-18 21:48:18,873 - INFO - [INIT]Module:Experiment
+2022-05-18 21:48:18,874 - INFO - Experimentos da Questão 2
+2022-05-18 21:48:18,875 - INFO - Item:pi_t
+2022-05-18 21:48:18,875 - INFO - Grafo:grid2D
+2022-05-18 21:48:18,875 - INFO - Número de vértices:100
+2022-05-18 21:48:18,875 - INFO - Número de execuções:10
+2022-05-18 21:48:27,088 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 21:48:27,089 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-18 21:49:36,334 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:49:36,334 - ERROR - [EXPT]get_distribution_vector
+2022-05-18 21:49:36,334 - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2022-05-18 21:49:36,335 - INFO - [100]get_distribution_vector:Gen(False):CheckSum(True)
+2022-05-18 21:49:36,335 - ERROR - Failed executing distribution vector pi_t in step 1.

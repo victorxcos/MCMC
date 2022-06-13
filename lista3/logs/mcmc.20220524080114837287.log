@@ -1,0 +1,16 @@
+2022-05-24 11:01:16,507 - INFO - ***********************************************************
+2022-05-24 11:01:16,507 - INFO - *** MCMC Helper                                         ***
+2022-05-24 11:01:16,508 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-24 11:01:16,508 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-24 11:01:16,508 - INFO - ***********************************************************
+2022-05-24 11:01:16,508 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-24 11:01:16,508 - INFO - ***********************************************************
+2022-05-24 11:01:16,508 - INFO - [INIT]Module:Experiment
+2022-05-24 11:01:19,200 - INFO - Experimentos da Questão 3
+2022-05-24 11:01:19,201 - INFO - Item:delta
+2022-05-24 11:01:19,202 - INFO - Probabilidade (p):all
+2022-05-24 11:01:19,202 - INFO - Número de vértices:10
+2022-05-24 11:01:19,203 - INFO - Número de execuções:1
+2022-05-24 11:01:19,203 - INFO - Plotar resultados? True
+2022-05-24 11:02:07,086 - INFO - [10]get_all_to_one_prob_matrix:Gen(True):CheckSum(True)
+2022-05-24 11:02:40,306 - ERROR - singular matrix

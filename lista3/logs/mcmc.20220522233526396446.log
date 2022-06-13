@@ -1,0 +1,11 @@
+2022-05-23 02:35:29,535 - INFO - ***********************************************************
+2022-05-23 02:35:29,536 - INFO - *** MCMC Helper                                         ***
+2022-05-23 02:35:29,536 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-23 02:35:29,536 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-23 02:35:29,536 - INFO - ***********************************************************
+2022-05-23 02:35:29,536 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-23 02:35:29,537 - INFO - ***********************************************************
+2022-05-23 02:35:29,537 - INFO - [INIT]Module:Experiment
+2022-05-23 02:35:29,537 - INFO - Experimentos da Questão 2
+2022-05-23 02:35:29,538 - ERROR - Syntax Error:L3Q2 -> Por favor informe o tipo de grafo (ring,bin_tree,grid2D) para continuar a execução:
+2022-05-23 02:35:29,538 - INFO - [DONE]Module:Experiment

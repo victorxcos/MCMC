@@ -1,0 +1,12 @@
+2022-05-03 22:24:29,379 - INFO - ***********************************************************
+2022-05-03 22:24:29,380 - INFO - *** MCMC Helper                                         ***
+2022-05-03 22:24:29,380 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-03 22:24:29,380 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-03 22:24:29,380 - INFO - ***********************************************************
+2022-05-03 22:24:29,380 - INFO - [INIT]Module:Experiment
+2022-05-03 22:24:29,381 - INFO - Experimentos da Questão 9
+2022-05-03 22:24:41,435 - INFO - SampleGen:m1
+2022-05-03 22:24:41,436 - INFO - Numero de execuções:2
+2022-05-03 22:24:41,437 - INFO - [10]integral_sample_gen:Sum(7.991311636407642):S(0.7991311636407642):Error(0.07004520987756642)
+2022-05-03 22:24:41,440 - INFO - [100]integral_sample_gen:Sum(74.79360463270181):S(0.7479360463270182):Error(0.001494398016949354)
+2022-05-03 22:25:31,013 - ERROR - `bins` must be an integer, a string, or an array

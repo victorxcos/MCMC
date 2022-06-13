@@ -1,0 +1,17 @@
+2022-05-18 17:22:15,079 - INFO - ***********************************************************
+2022-05-18 17:22:15,079 - INFO - *** MCMC Helper                                         ***
+2022-05-18 17:22:15,080 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-18 17:22:15,080 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-18 17:22:15,080 - INFO - ***********************************************************
+2022-05-18 17:22:15,080 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-18 17:22:15,080 - INFO - ***********************************************************
+2022-05-18 17:22:15,080 - INFO - [INIT]Module:Experiment
+2022-05-18 17:22:15,081 - INFO - Experimentos da Questão 2
+2022-05-18 17:22:15,081 - INFO - Item:det_pi
+2022-05-18 17:22:15,081 - INFO - Grafo:grid2D
+2022-05-18 17:22:15,082 - INFO - Número de vértices:100
+2022-05-18 17:22:15,082 - INFO - Número de execuções:1
+2022-05-18 17:22:26,895 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-18 17:22:34,656 - INFO - [100]get_stationary_vector:Gen(True):CheckSum(True)
+2022-05-18 17:22:34,662 - INFO - [20220518172213994596]save_stationary_vector:mcmc_det_pi_grid2D_100_.txt
+2022-05-18 17:22:34,663 - INFO - [DONE]Module:Experiment

@@ -1,0 +1,37 @@
+2022-05-19 02:04:57,960 - INFO - ***********************************************************
+2022-05-19 02:04:57,961 - INFO - *** MCMC Helper                                         ***
+2022-05-19 02:04:57,961 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-19 02:04:57,961 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-19 02:04:57,961 - INFO - ***********************************************************
+2022-05-19 02:04:57,961 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-19 02:04:57,961 - INFO - ***********************************************************
+2022-05-19 02:04:57,961 - INFO - [INIT]Module:Experiment
+2022-05-19 02:04:57,962 - INFO - Experimentos da Questão 2
+2022-05-19 02:04:57,963 - INFO - Item:dtv_pi
+2022-05-19 02:04:57,963 - INFO - Grafo:grid2D
+2022-05-19 02:04:57,963 - INFO - Número de vértices:100
+2022-05-19 02:04:57,963 - INFO - Número de execuções:10
+2022-05-19 02:05:04,814 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-19 02:05:04,861 - INFO - [100]get_stationary_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:04,879 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:07,747 - INFO - [0]get_dtv_pi:0.9777777777777708
+2022-05-19 02:05:07,751 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:13,856 - INFO - [0]get_dtv_pi:0.9499999999999851
+2022-05-19 02:05:13,876 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:15,242 - INFO - [0]get_dtv_pi:0.9138888888888683
+2022-05-19 02:05:15,245 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:15,911 - INFO - [0]get_dtv_pi:0.8978009259259018
+2022-05-19 02:05:15,915 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:16,249 - INFO - [0]get_dtv_pi:0.8743152006172599
+2022-05-19 02:05:16,254 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:16,434 - INFO - [0]get_dtv_pi:0.8566656418788265
+2022-05-19 02:05:16,443 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:17,101 - INFO - [0]get_dtv_pi:0.8409150969998188
+2022-05-19 02:05:17,105 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:17,972 - INFO - [0]get_dtv_pi:0.8227518009277899
+2022-05-19 02:05:17,979 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:18,536 - INFO - [0]get_dtv_pi:0.8055890812558807
+2022-05-19 02:05:18,540 - INFO - [100]get_distribution_vector:Gen(True):CheckSum(True)
+2022-05-19 02:05:19,208 - INFO - [0]get_dtv_pi:0.7922402787279644
+2022-05-19 02:05:19,212 - INFO - [20220518230456471936]save_dtv_vector:mcmc_dtv_pi_grid2D_100_.txt
+2022-05-19 02:05:19,213 - INFO - [DONE]Module:Experiment

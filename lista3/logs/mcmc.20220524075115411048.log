@@ -1,0 +1,18 @@
+2022-05-24 10:51:16,814 - INFO - ***********************************************************
+2022-05-24 10:51:16,815 - INFO - *** MCMC Helper                                         ***
+2022-05-24 10:51:16,815 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-24 10:51:16,815 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-24 10:51:16,815 - INFO - ***********************************************************
+2022-05-24 10:51:16,816 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-24 10:51:16,816 - INFO - ***********************************************************
+2022-05-24 10:51:16,816 - INFO - [INIT]Module:Experiment
+2022-05-24 10:51:26,353 - INFO - Experimentos da Questão 3
+2022-05-24 10:51:26,354 - INFO - Item:delta
+2022-05-24 10:51:26,354 - INFO - Probabilidade (p):all
+2022-05-24 10:51:26,354 - INFO - Número de vértices:10
+2022-05-24 10:51:26,355 - INFO - Número de execuções:1
+2022-05-24 10:51:26,355 - INFO - Plotar resultados? True
+2022-05-24 10:51:45,194 - ERROR - index 10 is out of bounds for axis 0 with size 10
+2022-05-24 10:51:45,195 - ERROR - [EXPT]get_all_to_one_prob_matrix
+2022-05-24 10:51:45,195 - ERROR - index 10 is out of bounds for axis 0 with size 10
+2022-05-24 10:51:45,195 - INFO - [10]get_all_to_one_prob_matrix:Gen(False):CheckSum(True)

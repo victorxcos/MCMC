@@ -1,0 +1,16 @@
+2022-05-17 21:02:15,549 - INFO - ***********************************************************
+2022-05-17 21:02:15,550 - INFO - *** MCMC Helper                                         ***
+2022-05-17 21:02:15,551 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-17 21:02:15,551 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-17 21:02:15,551 - INFO - ***********************************************************
+2022-05-17 21:02:15,551 - INFO - *** Terceira Lista de Exercícios                        ***
+2022-05-17 21:02:15,552 - INFO - ***********************************************************
+2022-05-17 21:02:15,552 - INFO - [INIT]Module:Experiment
+2022-05-17 21:02:15,554 - INFO - Experimentos da Questão 2
+2022-05-17 21:02:15,554 - INFO - Item:genP
+2022-05-17 21:02:15,554 - INFO - Grafo:bin_tree
+2022-05-17 21:02:15,557 - INFO - Número de vértices:100
+2022-05-17 21:02:15,558 - INFO - Número de execuções:1
+2022-05-17 21:29:23,725 - INFO - [100]get_transition_prob_matrix:Gen(True):CheckSum(True)
+2022-05-17 21:30:09,092 - INFO - [20220517210214665214]save_transition_prob_matrix:mcmc_genP_bin_tree_100_.csv
+2022-05-17 21:30:28,472 - INFO - [DONE]Module:Experiment

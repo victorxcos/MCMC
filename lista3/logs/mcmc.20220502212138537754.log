@@ -1,0 +1,14 @@
+2022-05-02 21:21:50,961 - INFO - ***********************************************************
+2022-05-02 21:21:51,379 - INFO - *** MCMC Helper                                         ***
+2022-05-02 21:21:51,659 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-05-02 21:21:52,043 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-05-02 21:21:53,501 - INFO - ***********************************************************
+2022-05-02 21:21:54,080 - INFO - [INIT]Module:Experiment
+2022-05-02 21:22:02,268 - INFO - Experimentos da Questão 7
+2022-05-02 21:27:23,778 - INFO - SampleGen:montecarlo
+2022-05-02 21:27:25,015 - INFO - Numero de execuções:5
+2022-05-02 21:27:26,278 - INFO - Tamanho da sequencia:2
+2022-05-02 21:27:35,032 - DEBUG - [2]LetterSeqSample:Seq(qm)
+2022-05-02 21:27:35,452 - DEBUG - qm
+2022-05-02 21:27:42,026 - DEBUG - http://www.qm.ufrj.br
+2022-05-02 21:28:20,195 - DEBUG - [2]LetterSeqSample:Seq(zq)
