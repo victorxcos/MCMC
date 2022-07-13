@@ -1,0 +1,27 @@
+2022-06-21 05:00:39,093 - INFO - ***********************************************************
+2022-06-21 05:00:39,094 - INFO - *** MCMC Helper                                         ***
+2022-06-21 05:00:39,094 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-21 05:00:39,094 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-21 05:00:39,094 - INFO - ***********************************************************
+2022-06-21 05:00:39,094 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-21 05:00:39,095 - INFO - ***********************************************************
+2022-06-21 05:00:39,095 - INFO - [INIT]Module:Experiment
+2022-06-21 05:00:39,095 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-21 05:00:39,096 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-21 05:00:39,096 - INFO - Estratégia de Resfriamento:delta
+2022-06-21 05:00:39,096 - INFO - Função de Custo:uniqueness
+2022-06-21 05:00:39,096 - INFO - Número de passos:1000
+2022-06-21 05:00:39,096 - INFO - Número de execuções:1
+2022-06-21 05:00:39,096 - INFO - Taxa de resfriamento:0.99
+2022-06-21 05:00:39,096 - INFO - Temperatura inicial:10000
+2022-06-21 05:00:39,097 - INFO - Plotar resultados? True
+2022-06-21 05:00:39,101 - INFO - [./input/debug.csv]load_samples:815
+2022-06-21 05:00:39,163 - INFO - [814]do_normalize_samples:814
+2022-06-21 05:00:39,163 - DEBUG - Working with 43 features.
+2022-06-21 05:01:46,999 - DEBUG - Melhor vetor após 1000 passos:[0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1];cujo valor da fobj=36
+2022-06-21 05:01:46,999 - INFO - Melhor configuração após 1000 passos:Q_0.1_2|Q_0.2_0|Q_0.3_2|Q_0.3_3|Q_0.3_4|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.5_3|Q_1.13_0|Q_1.15_0|Q_1.1_0|Q_1.6_0|Q_1.7_2|Q_1.8_0|Q_1.9_0|Q_4.11_0|Q_4.11a_1|Q_4.11a_2|Q_4.11b_2|Q_4.1_1|Q_4.2_1|Q_4.2_2|Q_4.2_3|Q_4.3_1|Q_4.3_2|Q_4.3a_0|Q_4.4_0;cujo valor da fobj=36
+2022-06-21 05:01:47,000 - INFO - [1000]do_simulated_annealing:Simulation(True):BestValue(36)
+2022-06-21 05:01:47,000 - INFO - Melhor configuração final:Q_0.1_2|Q_0.2_0|Q_0.3_2|Q_0.3_3|Q_0.3_4|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.5_3|Q_1.13_0|Q_1.15_0|Q_1.1_0|Q_1.6_0|Q_1.7_2|Q_1.8_0|Q_1.9_0|Q_4.11_0|Q_4.11a_1|Q_4.11a_2|Q_4.11b_2|Q_4.1_1|Q_4.2_1|Q_4.2_2|Q_4.2_3|Q_4.3_1|Q_4.3_2|Q_4.3a_0|Q_4.4_0:36
+2022-06-21 05:01:47,004 - INFO - [20220621020034568982]save_history:mcmc_clustering_delta_1000_1_history.csv
+2022-06-21 05:01:50,905 - DEBUG - max_value:999.0
+2022-06-21 05:03:34,501 - INFO - [DONE]Module:Experiment

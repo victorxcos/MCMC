@@ -1,0 +1,22 @@
+2022-06-22 02:44:26,761 - INFO - ***********************************************************
+2022-06-22 02:44:26,762 - INFO - *** MCMC Helper                                         ***
+2022-06-22 02:44:26,762 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-22 02:44:26,762 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-22 02:44:26,762 - INFO - ***********************************************************
+2022-06-22 02:44:26,762 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-22 02:44:26,762 - INFO - ***********************************************************
+2022-06-22 02:44:26,763 - INFO - [INIT]Module:Experiment
+2022-06-22 02:44:26,763 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-22 02:44:26,763 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-22 02:44:26,764 - INFO - Estratégia de Resfriamento:exp
+2022-06-22 02:44:26,764 - INFO - Função de Custo:uniqueness
+2022-06-22 02:44:26,764 - INFO - Número de passos:1000
+2022-06-22 02:44:26,764 - INFO - Número de execuções:1
+2022-06-22 02:44:26,764 - INFO - Taxa de resfriamento:0.99
+2022-06-22 02:44:26,764 - INFO - Temperatura inicial:10000
+2022-06-22 02:44:26,764 - INFO - Plotar resultados? True
+2022-06-22 02:44:26,768 - INFO - [./input/debug.csv]load_samples:815
+2022-06-22 02:44:26,817 - INFO - [814]do_normalize_samples:814
+2022-06-22 11:58:35,543 - INFO - [43]get_features_from_header:43
+2022-06-22 11:58:38,088 - DEBUG - Trabalhando com 43 features.
+2022-06-22 11:59:32,847 - ERROR - Error:'float' object cannot be interpreted as an integer

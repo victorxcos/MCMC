@@ -1,0 +1,31 @@
+2022-06-19 02:14:22,174 - INFO - ***********************************************************
+2022-06-19 02:14:22,175 - INFO - *** MCMC Helper                                         ***
+2022-06-19 02:14:22,175 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-19 02:14:22,175 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-19 02:14:22,175 - INFO - ***********************************************************
+2022-06-19 02:14:22,176 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-19 02:14:22,176 - INFO - ***********************************************************
+2022-06-19 02:14:22,176 - INFO - [INIT]Module:Experiment
+2022-06-19 02:14:22,176 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-19 02:14:22,177 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-19 02:14:22,177 - INFO - Estratégia de Resfriamento:log
+2022-06-19 02:14:22,177 - INFO - Número de passos:1000
+2022-06-19 02:14:22,177 - INFO - Número de execuções:3
+2022-06-19 02:14:22,177 - INFO - Plotar resultados? False
+2022-06-19 02:14:22,182 - INFO - [./input/debug.csv]load_samples:815
+2022-06-19 02:14:22,231 - INFO - [814]do_normalize_samples:814
+2022-06-19 02:14:22,231 - DEBUG - Working with 43 features.
+2022-06-19 02:14:22,262 - ERROR - 'module' object is not callable
+2022-06-19 02:14:22,262 - ERROR - [EXPT]do_simulated_annealing
+2022-06-19 02:14:22,263 - ERROR - 'module' object is not callable
+2022-06-19 02:14:22,263 - INFO - [1000]do_simulated_annealing:Simulation(False):BestValue(13)
+2022-06-19 02:14:22,283 - ERROR - 'module' object is not callable
+2022-06-19 02:14:22,283 - ERROR - [EXPT]do_simulated_annealing
+2022-06-19 02:14:22,284 - ERROR - 'module' object is not callable
+2022-06-19 02:14:22,284 - INFO - [1000]do_simulated_annealing:Simulation(False):BestValue(0)
+2022-06-19 02:14:22,306 - ERROR - 'module' object is not callable
+2022-06-19 02:14:22,306 - ERROR - [EXPT]do_simulated_annealing
+2022-06-19 02:14:22,306 - ERROR - 'module' object is not callable
+2022-06-19 02:14:22,306 - INFO - [1000]do_simulated_annealing:Simulation(False):BestValue(364)
+2022-06-19 02:14:22,307 - INFO - Melhor configuração final::0
+2022-06-19 02:17:17,457 - INFO - [DONE]Module:Experiment

@@ -1,0 +1,25 @@
+2022-06-18 21:23:29,999 - INFO - ***********************************************************
+2022-06-18 21:23:30,001 - INFO - *** MCMC Helper                                         ***
+2022-06-18 21:23:30,001 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-18 21:23:30,001 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-18 21:23:30,002 - INFO - ***********************************************************
+2022-06-18 21:23:30,002 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-18 21:23:30,002 - INFO - ***********************************************************
+2022-06-18 21:23:30,002 - INFO - [INIT]Module:Experiment
+2022-06-18 21:23:30,003 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-18 21:23:30,004 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-18 21:23:30,004 - INFO - Estratégia de Resfriamento:linear
+2022-06-18 21:23:30,004 - INFO - Número de passos:100
+2022-06-18 21:23:30,005 - INFO - Número de execuções:2
+2022-06-18 21:23:30,005 - INFO - Plotar resultados? False
+2022-06-18 21:23:39,140 - INFO - [./input/debug.csv]load_samples:815
+2022-06-18 21:23:40,241 - INFO - [814]do_normalize_samples:814
+2022-06-18 21:23:41,764 - DEBUG - Working with 43 features.
+2022-06-18 21:23:48,440 - DEBUG - Melhor vetor:[0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1]:0.022113022113022112
+2022-06-18 21:23:49,719 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:0.022113022113022112
+2022-06-18 21:24:21,553 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(0.022113022113022112)
+2022-06-18 21:24:46,242 - DEBUG - Melhor vetor:[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0]:0.022113022113022112
+2022-06-18 21:24:47,045 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:0.022113022113022112
+2022-06-18 21:25:31,339 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(0.022113022113022112)
+2022-06-18 21:25:36,270 - INFO - Melhor configuração final:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:0.022113022113022112
+2022-06-18 21:26:24,988 - ERROR - 'list' object has no attribute 'items'

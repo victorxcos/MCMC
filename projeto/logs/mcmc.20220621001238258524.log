@@ -1,0 +1,24 @@
+2022-06-21 03:12:42,691 - INFO - ***********************************************************
+2022-06-21 03:12:42,692 - INFO - *** MCMC Helper                                         ***
+2022-06-21 03:12:42,692 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-21 03:12:42,692 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-21 03:12:42,692 - INFO - ***********************************************************
+2022-06-21 03:12:42,692 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-21 03:12:42,692 - INFO - ***********************************************************
+2022-06-21 03:12:42,692 - INFO - [INIT]Module:Experiment
+2022-06-21 03:12:42,693 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-21 03:12:42,693 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-21 03:12:42,693 - INFO - Estratégia de Resfriamento:log
+2022-06-21 03:12:42,694 - INFO - Função de Custo:uniqueness
+2022-06-21 03:12:42,694 - INFO - Número de passos:1000
+2022-06-21 03:12:42,694 - INFO - Número de execuções:1
+2022-06-21 03:12:42,694 - INFO - Taxa de resfriamento:0.99
+2022-06-21 03:12:42,695 - INFO - Temperatura inicial:10000
+2022-06-21 03:12:42,695 - INFO - Plotar resultados? True
+2022-06-21 03:12:59,343 - INFO - [./input/debug.csv]load_samples:815
+2022-06-21 03:12:59,399 - INFO - [814]do_normalize_samples:814
+2022-06-21 03:12:59,400 - DEBUG - Working with 43 features.
+2022-06-21 03:12:59,401 - ERROR - do_simulated_annealing() got an unexpected keyword argument 'temp0'
+2022-06-21 03:12:59,401 - ERROR - [EXPT]clustering_simulation_exec
+2022-06-21 03:12:59,401 - ERROR - do_simulated_annealing() got an unexpected keyword argument 'temp0'
+2022-06-21 03:13:02,392 - INFO - [DONE]Module:Experiment

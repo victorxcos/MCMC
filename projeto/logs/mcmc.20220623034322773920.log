@@ -1,0 +1,10 @@
+2022-06-23 06:43:26,988 - INFO - ***********************************************************
+2022-06-23 06:43:26,989 - INFO - *** MCMC Helper                                         ***
+2022-06-23 06:43:26,989 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-23 06:43:26,989 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-23 06:43:26,989 - INFO - ***********************************************************
+2022-06-23 06:43:26,989 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-23 06:43:26,989 - INFO - ***********************************************************
+2022-06-23 06:43:26,990 - INFO - [INIT]Module:Experiment
+2022-06-23 06:43:26,990 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-23 06:43:26,991 - ERROR - Syntax Error:S001 -> Por favor informe uma configuração inicial válida (0a,1a,4a,5a,7a) para continuar a execução.

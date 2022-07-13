@@ -1,0 +1,29 @@
+2022-06-19 13:39:25,351 - INFO - ***********************************************************
+2022-06-19 13:39:25,352 - INFO - *** MCMC Helper                                         ***
+2022-06-19 13:39:25,352 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-19 13:39:25,352 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-19 13:39:25,352 - INFO - ***********************************************************
+2022-06-19 13:39:25,352 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-19 13:39:25,352 - INFO - ***********************************************************
+2022-06-19 13:39:25,352 - INFO - [INIT]Module:Experiment
+2022-06-19 13:39:25,353 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-19 13:39:25,353 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-19 13:39:25,353 - INFO - Estratégia de Resfriamento:exp
+2022-06-19 13:39:25,353 - INFO - Número de passos:10000
+2022-06-19 13:39:25,353 - INFO - Número de execuções:5
+2022-06-19 13:39:25,353 - INFO - Plotar resultados? False
+2022-06-19 13:39:25,358 - INFO - [./input/debug.csv]load_samples:815
+2022-06-19 13:39:25,398 - INFO - [814]do_normalize_samples:814
+2022-06-19 13:43:01,209 - INFO - Melhor configuração:Q_0.1_1|Q_0.1_2|Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.3_4|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.5_3|Q_1.0_0|Q_1.11_1|Q_1.11_2|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_1.15_0|Q_1.1_0|Q_1.7_2|Q_1.8_0|Q_4.0_0|Q_4.11a_1|Q_4.11a_3|Q_4.11b_1|Q_4.13_0|Q_4.1_1|Q_4.2_1|Q_4.2_3|Q_4.3_2|Q_4.3a_0|Q_4.4_0:12
+2022-06-19 13:43:01,209 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(12)
+2022-06-19 13:46:26,928 - INFO - Melhor configuração:Q_0.1_1|Q_0.3_1|Q_0.3_4|Q_0.5_2|Q_0.5_3|Q_0.5_4|Q_0.6_1|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_1.7_2|Q_4.0_0|Q_4.11_0|Q_4.11b_2|Q_4.1_1|Q_4.1_2|Q_4.2_2|Q_4.2_3|Q_4.3_1|Q_4.3_2|Q_4.3a_0|Q_4.4_0:14
+2022-06-19 13:46:26,928 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(14)
+2022-06-19 13:49:51,598 - INFO - Melhor configuração:Q_0.1_2|Q_0.3_3|Q_0.4_0|Q_0.5_2|Q_0.5_3|Q_0.6_1|Q_1.0_0|Q_1.11_1|Q_1.11_2|Q_1.12_0|Q_1.13_0|Q_1.1_0|Q_1.7_1|Q_1.7_2|Q_4.11_0|Q_4.11a_2|Q_4.11b_1|Q_4.11b_2|Q_4.1_1|Q_4.2_3|Q_4.3_1|Q_4.3_2|Q_4.3a_0|Q_4.4_0:6
+2022-06-19 13:49:51,598 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(6)
+2022-06-19 13:53:11,754 - INFO - Melhor configuração:Q_0.1_1|Q_0.1_2|Q_0.2_0|Q_0.3_1|Q_0.3_2|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.5_3|Q_0.5_4|Q_0.6_1|Q_1.0_0|Q_1.11_1|Q_1.11_2|Q_1.14_0|Q_1.15_0|Q_1.6_0|Q_1.7_1|Q_4.11a_1|Q_4.11a_2|Q_4.11b_1|Q_4.11b_2|Q_4.13_0|Q_4.1_2|Q_4.2_1|Q_4.3a_0|Q_4.4_0:7
+2022-06-19 13:53:11,754 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(7)
+2022-06-19 13:56:25,134 - INFO - Melhor configuração:Q_0.1_1|Q_0.1_2|Q_0.2_0|Q_0.3_3|Q_0.5_1|Q_0.5_2|Q_0.5_4|Q_1.0_0|Q_1.14_0|Q_1.1_0|Q_1.9_0|Q_4.11_0|Q_4.11a_1|Q_4.11a_3|Q_4.11b_2|Q_4.13_0|Q_4.2_1|Q_4.2_2|Q_4.3_1|Q_4.3a_0|Q_4.4_0:15
+2022-06-19 13:56:25,134 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(15)
+2022-06-19 13:56:25,134 - INFO - Melhor configuração final::0
+2022-06-19 13:56:25,381 - INFO - [20220619103918510724]save_history:mcmc_clustering_exp_10000_5_history.csv
+2022-06-20 11:22:29,729 - INFO - [DONE]Module:Experiment

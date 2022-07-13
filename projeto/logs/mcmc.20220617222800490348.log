@@ -1,0 +1,20 @@
+2022-06-18 01:28:02,001 - INFO - ***********************************************************
+2022-06-18 01:28:02,002 - INFO - *** MCMC Helper                                         ***
+2022-06-18 01:28:02,002 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-18 01:28:02,002 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-18 01:28:02,002 - INFO - ***********************************************************
+2022-06-18 01:28:02,003 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-18 01:28:02,003 - INFO - ***********************************************************
+2022-06-18 01:28:02,003 - INFO - [INIT]Module:Experiment
+2022-06-18 01:28:02,003 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-18 01:28:02,004 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-18 01:28:02,004 - INFO - Estratégia de Resfriamento:linear
+2022-06-18 01:28:02,004 - INFO - Número de passos:10000
+2022-06-18 01:28:02,004 - INFO - Número de execuções:10
+2022-06-18 01:28:02,004 - INFO - Plotar resultados? False
+2022-06-18 01:28:04,819 - INFO - [./input/debug.csv]load_samples:815
+2022-06-18 01:28:10,954 - INFO - [814]do_normalize_samples:814
+2022-06-18 01:28:10,955 - DEBUG - Working with 43 features.
+2022-06-18 01:28:15,000 - DEBUG - [43]vector:v([1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0])
+2022-06-18 01:28:26,342 - ERROR - must be str, not int
+2022-06-18 01:28:26,582 - ERROR - [EXPT]do_simulated_annealing

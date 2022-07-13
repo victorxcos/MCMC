@@ -1,0 +1,45 @@
+2022-06-21 06:33:23,447 - INFO - ***********************************************************
+2022-06-21 06:33:23,448 - INFO - *** MCMC Helper                                         ***
+2022-06-21 06:33:23,448 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-21 06:33:23,448 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-21 06:33:23,448 - INFO - ***********************************************************
+2022-06-21 06:33:23,448 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-21 06:33:23,448 - INFO - ***********************************************************
+2022-06-21 06:33:23,448 - INFO - [INIT]Module:Experiment
+2022-06-21 06:33:23,448 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-21 06:33:23,449 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-21 06:33:23,449 - INFO - Estratégia de Resfriamento:log
+2022-06-21 06:33:23,449 - INFO - Função de Custo:uniqueness
+2022-06-21 06:33:23,449 - INFO - Número de passos:10000
+2022-06-21 06:33:23,449 - INFO - Número de execuções:10
+2022-06-21 06:33:23,449 - INFO - Taxa de resfriamento:0.99
+2022-06-21 06:33:23,449 - INFO - Temperatura inicial:10000
+2022-06-21 06:33:23,449 - INFO - Plotar resultados? True
+2022-06-21 06:33:23,454 - INFO - [./input/debug.csv]load_samples:815
+2022-06-21 06:33:23,508 - INFO - [814]do_normalize_samples:814
+2022-06-21 06:37:35,501 - INFO - Melhor configuração após 10000 passos:Q_0.1_1|Q_0.1_2|Q_0.2_0|Q_0.3_2|Q_0.3_3|Q_0.3_4|Q_0.4_0|Q_1.11_2|Q_1.13_0|Q_1.14_0|Q_1.15_0|Q_1.1_0|Q_1.7_2|Q_1.8_0|Q_4.11_0|Q_4.11a_3|Q_4.1_1|Q_4.2_2|Q_4.3_2;cujo valor da fobj=362
+2022-06-21 06:37:35,501 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(362)
+2022-06-21 06:41:15,766 - INFO - Melhor configuração após 10000 passos:Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.5_1|Q_0.5_3|Q_0.5_4|Q_1.0_0|Q_1.11_1|Q_1.11_2|Q_1.14_0|Q_1.1_0|Q_1.7_1|Q_1.7_2|Q_1.8_0|Q_1.9_0|Q_4.11_0|Q_4.11a_2|Q_4.11b_1|Q_4.11b_2|Q_4.13_0|Q_4.2_2|Q_4.2_3|Q_4.3_2|Q_4.4_0;cujo valor da fobj=32
+2022-06-21 06:41:15,766 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(32)
+2022-06-21 06:44:56,038 - INFO - Melhor configuração após 10000 passos:Q_0.1_1|Q_0.1_2|Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.3_4|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.6_1|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_1.6_0|Q_1.7_1|Q_1.7_2|Q_4.0_0|Q_4.11a_2|Q_4.11b_2|Q_4.1_1|Q_4.3_1|Q_4.3_2|Q_4.3a_0|Q_4.4_0;cujo valor da fobj=12
+2022-06-21 06:44:56,039 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(12)
+2022-06-21 06:48:29,535 - INFO - Melhor configuração após 10000 passos:Q_0.1_2|Q_0.2_0|Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.3_4|Q_0.4_0|Q_0.5_2|Q_0.5_3|Q_0.5_4|Q_0.6_1|Q_1.11_1|Q_1.6_0|Q_1.9_0|Q_4.11a_2|Q_4.11a_3|Q_4.1_1|Q_4.1_2|Q_4.2_2;cujo valor da fobj=43
+2022-06-21 06:48:29,535 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(43)
+2022-06-21 06:51:59,163 - INFO - Melhor configuração após 10000 passos:Q_0.1_1|Q_0.2_0|Q_0.3_1|Q_0.3_2|Q_0.4_0|Q_0.5_1|Q_0.5_3|Q_0.5_4|Q_0.6_1|Q_1.11_2|Q_1.12_0|Q_1.13_0|Q_1.15_0|Q_1.1_0|Q_1.7_1|Q_1.7_2|Q_4.0_0|Q_4.11a_2|Q_4.1_2|Q_4.2_1|Q_4.2_2|Q_4.2_3|Q_4.3_2|Q_4.3a_0;cujo valor da fobj=27
+2022-06-21 06:51:59,163 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(27)
+2022-06-21 06:55:40,849 - INFO - Melhor configuração após 10000 passos:Q_0.3_1|Q_0.3_3|Q_0.5_2|Q_0.5_3|Q_1.0_0|Q_1.11_1|Q_1.14_0|Q_1.8_0|Q_4.11_0|Q_4.11b_2|Q_4.13_0|Q_4.1_1|Q_4.4_0;cujo valor da fobj=51
+2022-06-21 06:55:40,849 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(51)
+2022-06-21 06:59:20,071 - INFO - Melhor configuração após 10000 passos:Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.4_0|Q_0.5_3|Q_1.0_0|Q_1.14_0|Q_1.15_0|Q_1.7_1|Q_1.7_2|Q_1.8_0|Q_1.9_0|Q_4.0_0|Q_4.11a_3|Q_4.11b_2|Q_4.3_2|Q_4.3a_0;cujo valor da fobj=170
+2022-06-21 06:59:20,072 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(170)
+2022-06-21 07:02:57,872 - INFO - Melhor configuração após 10000 passos:Q_0.1_1|Q_0.1_2|Q_0.2_0|Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.4_0|Q_0.5_3|Q_0.5_4|Q_1.0_0|Q_1.11_2|Q_1.13_0|Q_1.1_0|Q_1.6_0|Q_1.7_1|Q_1.8_0|Q_4.0_0|Q_4.11_0|Q_4.11a_2|Q_4.11a_3|Q_4.11b_2|Q_4.1_2|Q_4.2_2|Q_4.2_3;cujo valor da fobj=58
+2022-06-21 07:02:57,873 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(58)
+2022-06-21 07:06:41,674 - INFO - Melhor configuração após 10000 passos:Q_0.1_2|Q_0.2_0|Q_0.5_1|Q_0.5_2|Q_0.5_4|Q_0.6_1|Q_1.11_2|Q_1.13_0|Q_1.7_2|Q_1.8_0|Q_4.11a_1|Q_4.11a_2|Q_4.11a_3|Q_4.11b_1|Q_4.3a_0;cujo valor da fobj=41
+2022-06-21 07:06:41,675 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(41)
+2022-06-21 07:09:34,316 - INFO - Melhor configuração após 10000 passos:Q_0.2_0|Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.5_3|Q_0.6_1|Q_1.0_0|Q_1.12_0|Q_1.13_0|Q_1.1_0|Q_4.0_0|Q_4.11a_2|Q_4.11a_3|Q_4.11b_2|Q_4.1_2|Q_4.3_1|Q_4.3a_0|Q_4.4_0;cujo valor da fobj=6
+2022-06-21 07:09:34,317 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(6)
+2022-06-21 07:09:34,317 - INFO - Melhor configuração final:Q_0.2_0|Q_0.3_1|Q_0.3_2|Q_0.3_3|Q_0.4_0|Q_0.5_1|Q_0.5_2|Q_0.5_3|Q_0.6_1|Q_1.0_0|Q_1.12_0|Q_1.13_0|Q_1.1_0|Q_4.0_0|Q_4.11a_2|Q_4.11a_3|Q_4.11b_2|Q_4.1_2|Q_4.3_1|Q_4.3a_0|Q_4.4_0:6
+2022-06-21 07:09:34,685 - INFO - [20220621033319974825]save_history:mcmc_clustering_log_10000_10_history.csv
+2022-06-21 11:56:35,590 - ERROR - 'NoneType' object has no attribute 'attributes'
+2022-06-21 11:56:35,590 - ERROR - [EXPT]plot_results
+2022-06-21 11:56:35,591 - ERROR - 'NoneType' object has no attribute 'attributes'
+2022-06-21 11:56:35,609 - INFO - [DONE]Module:Experiment

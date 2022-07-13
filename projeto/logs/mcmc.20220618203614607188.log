@@ -1,0 +1,23 @@
+2022-06-18 23:36:18,352 - INFO - ***********************************************************
+2022-06-18 23:36:18,353 - INFO - *** MCMC Helper                                         ***
+2022-06-18 23:36:18,353 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-18 23:36:18,353 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-18 23:36:18,354 - INFO - ***********************************************************
+2022-06-18 23:36:18,354 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-18 23:36:18,354 - INFO - ***********************************************************
+2022-06-18 23:36:18,354 - INFO - [INIT]Module:Experiment
+2022-06-18 23:36:18,355 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-18 23:36:18,355 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-18 23:36:18,356 - INFO - Estratégia de Resfriamento:linear
+2022-06-18 23:36:18,356 - INFO - Número de passos:1000
+2022-06-18 23:36:18,356 - INFO - Número de execuções:3
+2022-06-18 23:36:18,356 - INFO - Plotar resultados? False
+2022-06-18 23:36:21,899 - INFO - [./input/debug.csv]load_samples:815
+2022-06-18 23:36:22,932 - INFO - [814]do_normalize_samples:814
+2022-06-18 23:36:25,330 - DEBUG - Working with 43 features.
+2022-06-18 23:36:47,691 - DEBUG - Melhor vetor:[1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]:812
+2022-06-18 23:36:47,692 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:812
+2022-06-18 23:36:47,692 - INFO - [1000]do_simulated_annealing:Simulation(True):BestValue(812)
+2022-06-18 23:37:46,433 - DEBUG - Melhor vetor:[1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1]:812
+2022-06-18 23:37:46,433 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:812
+2022-06-18 23:37:46,433 - INFO - [1000]do_simulated_annealing:Simulation(True):BestValue(812)

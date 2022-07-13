@@ -1,0 +1,28 @@
+2022-06-23 16:09:19,236 - INFO - ***********************************************************
+2022-06-23 16:09:19,237 - INFO - *** MCMC Helper                                         ***
+2022-06-23 16:09:19,237 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-23 16:09:19,237 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-23 16:09:19,238 - INFO - ***********************************************************
+2022-06-23 16:09:19,238 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-23 16:09:19,238 - INFO - ***********************************************************
+2022-06-23 16:09:19,239 - INFO - [INIT]Module:Experiment
+2022-06-23 16:09:19,240 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-23 16:09:19,241 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-23 16:09:19,241 - INFO - Estratégia de Resfriamento:exp
+2022-06-23 16:09:19,241 - INFO - Função de Custo:random
+2022-06-23 16:09:19,242 - INFO - Número de passos:1000
+2022-06-23 16:09:19,242 - INFO - Número de execuções:1
+2022-06-23 16:09:19,242 - INFO - Taxa de resfriamento:0.9
+2022-06-23 16:09:19,243 - INFO - Temperatura inicial:10000
+2022-06-23 16:09:19,243 - INFO - Plotar resultados? True
+2022-06-23 16:09:19,249 - INFO - [./input/debug.csv]load_samples:815
+2022-06-23 16:09:19,306 - INFO - [814]do_normalize_samples:814
+2022-06-23 16:09:21,870 - INFO - [43]get_features_from_header:43
+2022-06-23 16:09:21,871 - DEBUG - Trabalhando com 43 features.
+2022-06-23 16:09:36,882 - DEBUG - Melhor vetor após 88 passos:[1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0];cujo valor da fobj=7
+2022-06-23 16:09:36,882 - INFO - Melhor configuração após 88 passos:0.1_1|0.1_2|0.2_0|0.3_3|0.5_1|0.5_3|0.5_4|0.6_1|1.0_0|1.11_2|1.12_0|1.14_0|1.7_2|4.0_0|4.11a_1|4.11b_1|4.1_1|4.2_1|4.2_2|4.2_3|4.3_1|4.3_2;cujo valor da fobj=7
+2022-06-23 16:09:36,882 - DEBUG - [1000]do_simulated_annealing:Simulation(True):BestValue(7)
+2022-06-23 16:09:36,883 - INFO - Melhor configuração final:0.1_1|0.1_2|0.2_0|0.3_3|0.5_1|0.5_3|0.5_4|0.6_1|1.0_0|1.11_2|1.12_0|1.14_0|1.7_2|4.0_0|4.11a_1|4.11b_1|4.1_1|4.2_1|4.2_2|4.2_3|4.3_1|4.3_2:7
+2022-06-23 16:09:36,884 - INFO - [20220623130915442176]save_history:mcmc_clustering_exp_1000_1_history.csv
+2022-06-23 16:09:40,309 - DEBUG - max_value:9000.0
+2022-06-23 16:10:22,627 - INFO - [DONE]Module:Experiment

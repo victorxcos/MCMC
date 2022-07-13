@@ -1,0 +1,21 @@
+2022-06-22 12:01:32,484 - INFO - ***********************************************************
+2022-06-22 12:01:32,485 - INFO - *** MCMC Helper                                         ***
+2022-06-22 12:01:32,485 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-22 12:01:32,485 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-22 12:01:32,485 - INFO - ***********************************************************
+2022-06-22 12:01:32,485 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-22 12:01:32,485 - INFO - ***********************************************************
+2022-06-22 12:01:32,485 - INFO - [INIT]Module:Experiment
+2022-06-22 12:01:32,486 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-22 12:01:32,487 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-22 12:01:32,487 - INFO - Estratégia de Resfriamento:exp
+2022-06-22 12:01:32,487 - INFO - Função de Custo:uniqueness
+2022-06-22 12:01:32,487 - INFO - Número de passos:1000
+2022-06-22 12:01:32,488 - INFO - Número de execuções:1
+2022-06-22 12:01:32,488 - INFO - Taxa de resfriamento:0.99
+2022-06-22 12:01:32,488 - INFO - Temperatura inicial:10000
+2022-06-22 12:01:32,488 - INFO - Plotar resultados? True
+2022-06-22 12:01:32,492 - INFO - [./input/debug.csv]load_samples:815
+2022-06-22 12:01:32,538 - INFO - [814]do_normalize_samples:814
+2022-06-22 12:01:34,947 - INFO - [43]get_features_from_header:43
+2022-06-22 12:01:34,947 - DEBUG - Trabalhando com 43 features.

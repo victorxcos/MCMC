@@ -1,0 +1,15 @@
+2022-06-18 00:47:51,403 - INFO - ***********************************************************
+2022-06-18 00:47:51,404 - INFO - *** MCMC Helper                                         ***
+2022-06-18 00:47:51,404 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-18 00:47:51,404 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-18 00:47:51,404 - INFO - ***********************************************************
+2022-06-18 00:47:51,405 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-18 00:47:51,405 - INFO - ***********************************************************
+2022-06-18 00:47:51,405 - INFO - [INIT]Module:Experiment
+2022-06-18 00:48:01,039 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-18 00:48:15,068 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-18 00:48:15,898 - INFO - Estratégia de Resfriamento:linear
+2022-06-18 00:48:17,158 - INFO - Número de passos:10000
+2022-06-18 00:48:20,026 - INFO - Número de execuções:10
+2022-06-18 00:48:24,731 - INFO - Plotar resultados? False
+2022-06-18 00:49:00,734 - ERROR - '_csv.reader' object is not subscriptable

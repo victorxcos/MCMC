@@ -1,0 +1,29 @@
+2022-06-18 21:41:20,442 - INFO - ***********************************************************
+2022-06-18 21:41:20,442 - INFO - *** MCMC Helper                                         ***
+2022-06-18 21:41:20,443 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-18 21:41:20,443 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-18 21:41:20,443 - INFO - ***********************************************************
+2022-06-18 21:41:20,443 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-18 21:41:20,443 - INFO - ***********************************************************
+2022-06-18 21:41:20,443 - INFO - [INIT]Module:Experiment
+2022-06-18 21:41:20,444 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-18 21:41:20,444 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-18 21:41:20,444 - INFO - Estratégia de Resfriamento:linear
+2022-06-18 21:41:20,444 - INFO - Número de passos:100
+2022-06-18 21:41:20,444 - INFO - Número de execuções:2
+2022-06-18 21:41:20,444 - INFO - Plotar resultados? False
+2022-06-18 21:41:23,131 - INFO - [./input/debug.csv]load_samples:815
+2022-06-18 21:41:23,183 - INFO - [814]do_normalize_samples:814
+2022-06-18 21:41:23,183 - DEBUG - Working with 43 features.
+2022-06-18 21:41:29,787 - DEBUG - Melhor vetor:[1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1]:0.02334152334152334
+2022-06-18 21:41:29,788 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:0.02334152334152334
+2022-06-18 21:41:29,788 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(0.02334152334152334)
+2022-06-18 21:41:54,647 - DEBUG - Melhor vetor:[0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1]:0.02334152334152334
+2022-06-18 21:41:54,647 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:0.02334152334152334
+2022-06-18 21:41:54,647 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(0.02334152334152334)
+2022-06-18 21:41:57,507 - INFO - Melhor configuração final:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:0.02334152334152334
+2022-06-18 21:43:40,464 - INFO - [20220618184116636286]save_history:mcmc_clustering_linear_100_2_history.csv
+2022-06-18 21:43:40,465 - ERROR - local variable 'ret_code' referenced before assignment
+2022-06-18 21:43:40,466 - ERROR - [EXPT]main
+2022-06-18 21:43:40,466 - ERROR - local variable 'ret_code' referenced before assignment
+2022-06-18 21:43:40,466 - INFO - [DONE]Module:Experiment

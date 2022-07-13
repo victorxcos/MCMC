@@ -1,0 +1,20 @@
+2022-06-18 01:25:16,084 - INFO - ***********************************************************
+2022-06-18 01:25:16,085 - INFO - *** MCMC Helper                                         ***
+2022-06-18 01:25:16,085 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-18 01:25:16,085 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-18 01:25:16,085 - INFO - ***********************************************************
+2022-06-18 01:25:16,086 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-18 01:25:16,086 - INFO - ***********************************************************
+2022-06-18 01:25:16,086 - INFO - [INIT]Module:Experiment
+2022-06-18 01:25:16,086 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-18 01:25:16,087 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-18 01:25:16,087 - INFO - Estratégia de Resfriamento:linear
+2022-06-18 01:25:16,087 - INFO - Número de passos:10000
+2022-06-18 01:25:16,087 - INFO - Número de execuções:10
+2022-06-18 01:25:16,087 - INFO - Plotar resultados? False
+2022-06-18 01:25:22,177 - INFO - [./input/debug.csv]load_samples:815
+2022-06-18 01:25:28,224 - INFO - [814]do_normalize_samples:814
+2022-06-18 01:25:33,420 - DEBUG - Working with 43 features.
+2022-06-18 01:26:30,493 - DEBUG - [43]vector:v([1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1])
+2022-06-18 01:27:04,943 - ERROR - get_feature_from_vector() missing 1 required positional argument: 'features'
+2022-06-18 01:27:06,153 - ERROR - [EXPT]do_simulated_annealing

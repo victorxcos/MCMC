@@ -1,0 +1,10 @@
+2022-06-23 00:41:36,601 - INFO - ***********************************************************
+2022-06-23 00:41:36,602 - INFO - *** MCMC Helper                                         ***
+2022-06-23 00:41:36,602 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-23 00:41:36,603 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-23 00:41:36,603 - INFO - ***********************************************************
+2022-06-23 00:41:36,603 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-23 00:41:36,603 - INFO - ***********************************************************
+2022-06-23 00:41:36,604 - INFO - [INIT]Module:Experiment
+2022-06-23 00:41:36,604 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-23 00:41:36,605 - ERROR - Syntax Error:S001 -> Por favor informe a função de resfriamento. Opções:delta,linear,log,exp,quadr

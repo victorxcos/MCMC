@@ -1,0 +1,39 @@
+2022-06-23 06:03:35,264 - INFO - ***********************************************************
+2022-06-23 06:03:35,265 - INFO - *** MCMC Helper                                         ***
+2022-06-23 06:03:35,265 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-23 06:03:35,265 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-23 06:03:35,265 - INFO - ***********************************************************
+2022-06-23 06:03:35,266 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-23 06:03:35,266 - INFO - ***********************************************************
+2022-06-23 06:03:35,266 - INFO - [INIT]Module:Experiment
+2022-06-23 06:03:35,267 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-23 06:03:35,267 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-23 06:03:35,267 - INFO - Estratégia de Resfriamento:all
+2022-06-23 06:03:35,267 - INFO - Função de Custo:uniqueness
+2022-06-23 06:03:35,268 - INFO - Número de passos:100
+2022-06-23 06:03:35,268 - INFO - Número de execuções:1
+2022-06-23 06:03:35,268 - INFO - Taxa de resfriamento:0.9
+2022-06-23 06:03:35,268 - INFO - Temperatura inicial:10000
+2022-06-23 06:03:35,268 - INFO - Plotar resultados? True
+2022-06-23 06:03:35,272 - INFO - [./input/debug.csv]load_samples:815
+2022-06-23 06:03:35,312 - INFO - [814]do_normalize_samples:814
+2022-06-23 06:03:37,546 - INFO - [43]get_features_from_header:43
+2022-06-23 06:03:37,547 - DEBUG - Trabalhando com 43 features.
+2022-06-23 06:03:37,672 - DEBUG - Melhor vetor após 4 passos:[1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0];cujo valor da fobj=6
+2022-06-23 06:03:37,673 - INFO - Melhor configuração após 4 passos:0.1_1|0.2_0|0.3_3|0.5_1|0.5_3|0.5_4|0.6_1|1.0_0|1.11_1|1.11_2|1.12_0|1.13_0|1.15_0|1.1_0|1.6_0|1.7_2|4.0_0|4.11a_1|4.11b_1|4.13_0|4.1_1|4.2_2|4.2_3|4.3a_0;cujo valor da fobj=6
+2022-06-23 06:03:37,673 - DEBUG - [100]do_simulated_annealing:Simulation(True):BestValue(6)
+2022-06-23 06:03:40,237 - DEBUG - Melhor vetor após 100 passos:[1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0];cujo valor da fobj=5
+2022-06-23 06:03:40,237 - INFO - Melhor configuração após 100 passos:0.1_1|0.1_2|0.3_2|0.3_3|0.3_4|0.5_1|0.5_2|0.5_3|0.6_1|1.0_0|1.11_1|1.11_2|1.14_0|4.0_0|4.11_0|4.11a_1|4.11a_3|4.11b_1|4.11b_2|4.1_1|4.1_2|4.2_2|4.3_1|4.3_2|4.3a_0;cujo valor da fobj=5
+2022-06-23 06:03:40,237 - DEBUG - [100]do_simulated_annealing:Simulation(True):BestValue(5)
+2022-06-23 06:03:42,731 - DEBUG - Melhor vetor após 100 passos:[1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1];cujo valor da fobj=6
+2022-06-23 06:03:42,731 - INFO - Melhor configuração após 100 passos:0.1_1|0.1_2|0.3_1|0.4_0|0.5_1|0.5_2|0.5_3|0.5_4|0.6_1|1.0_0|1.11_1|1.13_0|1.14_0|1.15_0|1.1_0|1.6_0|1.7_1|4.11_0|4.11a_1|4.11a_2|4.13_0|4.2_1|4.2_2|4.2_3|4.3_2|4.4_0;cujo valor da fobj=6
+2022-06-23 06:03:42,731 - DEBUG - [100]do_simulated_annealing:Simulation(True):BestValue(6)
+2022-06-23 06:03:44,853 - DEBUG - Melhor vetor após 88 passos:[1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1];cujo valor da fobj=5
+2022-06-23 06:03:44,854 - INFO - Melhor configuração após 88 passos:0.1_1|0.1_2|0.3_2|0.3_4|0.4_0|0.5_1|0.5_2|0.5_3|0.5_4|0.6_1|1.13_0|1.14_0|1.1_0|1.9_0|4.0_0|4.11a_2|4.11b_1|4.11b_2|4.1_2|4.2_1|4.2_2|4.3_1|4.3a_0|4.4_0;cujo valor da fobj=5
+2022-06-23 06:03:44,854 - DEBUG - [100]do_simulated_annealing:Simulation(True):BestValue(5)
+2022-06-23 06:03:47,131 - DEBUG - Melhor vetor após 100 passos:[0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1];cujo valor da fobj=6
+2022-06-23 06:03:47,131 - INFO - Melhor configuração após 100 passos:0.1_2|0.3_3|0.3_4|0.5_1|0.5_2|0.5_3|0.5_4|0.6_1|1.0_0|1.11_2|1.12_0|1.13_0|1.15_0|1.7_2|1.8_0|1.9_0|4.11_0|4.11a_1|4.11a_2|4.11a_3|4.11b_1|4.13_0|4.2_1|4.2_3|4.3_1|4.3_2|4.4_0;cujo valor da fobj=6
+2022-06-23 06:03:47,132 - DEBUG - [100]do_simulated_annealing:Simulation(True):BestValue(6)
+2022-06-23 06:03:47,132 - INFO - Melhor configuração final:0.1_1|0.1_2|0.3_2|0.3_3|0.3_4|0.5_1|0.5_2|0.5_3|0.6_1|1.0_0|1.11_1|1.11_2|1.14_0|4.0_0|4.11_0|4.11a_1|4.11a_3|4.11b_1|4.11b_2|4.1_1|4.1_2|4.2_2|4.3_1|4.3_2|4.3a_0:5
+2022-06-23 06:03:47,134 - INFO - [20220623030330437373]save_history:mcmc_clustering_all_100_1_history.csv
+2022-06-23 06:04:14,764 - DEBUG - max_value:173.0

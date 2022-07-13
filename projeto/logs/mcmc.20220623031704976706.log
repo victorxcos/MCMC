@@ -1,0 +1,12 @@
+2022-06-23 06:17:08,952 - INFO - ***********************************************************
+2022-06-23 06:17:08,952 - INFO - *** MCMC Helper                                         ***
+2022-06-23 06:17:08,953 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-23 06:17:08,953 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-23 06:17:08,953 - INFO - ***********************************************************
+2022-06-23 06:17:08,953 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-23 06:17:08,953 - INFO - ***********************************************************
+2022-06-23 06:17:08,953 - INFO - [INIT]Module:Experiment
+2022-06-23 06:17:08,954 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-23 06:17:08,954 - ERROR - could not convert string to float: '1a'
+2022-06-23 06:17:08,955 - ERROR - [EXPT]clustering_simulation_exec
+2022-06-23 06:17:08,955 - ERROR - could not convert string to float: '1a'

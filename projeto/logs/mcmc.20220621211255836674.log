@@ -1,0 +1,24 @@
+2022-06-22 00:12:58,119 - INFO - ***********************************************************
+2022-06-22 00:12:58,120 - INFO - *** MCMC Helper                                         ***
+2022-06-22 00:12:58,120 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-22 00:12:58,120 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-22 00:12:58,120 - INFO - ***********************************************************
+2022-06-22 00:12:58,120 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-22 00:12:58,120 - INFO - ***********************************************************
+2022-06-22 00:12:58,120 - INFO - [INIT]Module:Experiment
+2022-06-22 00:12:58,120 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-22 00:12:58,120 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-22 00:12:58,121 - INFO - Estratégia de Resfriamento:exp
+2022-06-22 00:12:58,121 - INFO - Função de Custo:uniqueness
+2022-06-22 00:12:58,121 - INFO - Número de passos:10000
+2022-06-22 00:12:58,121 - INFO - Número de execuções:1
+2022-06-22 00:12:58,121 - INFO - Taxa de resfriamento:0.8
+2022-06-22 00:12:58,121 - INFO - Temperatura inicial:10000
+2022-06-22 00:12:58,121 - INFO - Plotar resultados? True
+2022-06-22 00:12:58,125 - INFO - [./input/debug.csv]load_samples:815
+2022-06-22 00:12:58,155 - INFO - [814]do_normalize_samples:814
+2022-06-22 00:12:58,812 - INFO - Melhor configuração após 42 passos:Q_0.1_2|Q_0.2_0|Q_0.3_4|Q_0.4_0|Q_0.5_2|Q_0.6_1|Q_1.0_0|Q_1.13_0|Q_1.14_0|Q_1.15_0|Q_1.1_0|Q_1.7_2|Q_1.8_0|Q_4.0_0|Q_4.11_0|Q_4.11a_3|Q_4.11b_1|Q_4.13_0|Q_4.1_2|Q_4.2_2|Q_4.3_1|Q_4.3a_0;cujo valor da fobj=35
+2022-06-22 00:12:58,812 - INFO - [10000]do_simulated_annealing:Simulation(True):BestValue(35)
+2022-06-22 00:12:58,812 - INFO - Melhor configuração final:Q_0.1_2|Q_0.2_0|Q_0.3_4|Q_0.4_0|Q_0.5_2|Q_0.6_1|Q_1.0_0|Q_1.13_0|Q_1.14_0|Q_1.15_0|Q_1.1_0|Q_1.7_2|Q_1.8_0|Q_4.0_0|Q_4.11_0|Q_4.11a_3|Q_4.11b_1|Q_4.13_0|Q_4.1_2|Q_4.2_2|Q_4.3_1|Q_4.3a_0:35
+2022-06-22 00:12:58,813 - INFO - [20220621211255836674]save_history:mcmc_clustering_exp_10000_1_history.csv
+2022-06-22 00:13:29,264 - INFO - [DONE]Module:Experiment

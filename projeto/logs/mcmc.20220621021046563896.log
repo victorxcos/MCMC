@@ -1,0 +1,27 @@
+2022-06-21 05:10:50,876 - INFO - ***********************************************************
+2022-06-21 05:10:50,877 - INFO - *** MCMC Helper                                         ***
+2022-06-21 05:10:50,877 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-21 05:10:50,878 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-21 05:10:50,878 - INFO - ***********************************************************
+2022-06-21 05:10:50,878 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-21 05:10:50,878 - INFO - ***********************************************************
+2022-06-21 05:10:50,879 - INFO - [INIT]Module:Experiment
+2022-06-21 05:10:50,879 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-21 05:10:50,880 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-21 05:10:50,880 - INFO - Estratégia de Resfriamento:quadr
+2022-06-21 05:10:50,881 - INFO - Função de Custo:uniqueness
+2022-06-21 05:10:50,881 - INFO - Número de passos:1000
+2022-06-21 05:10:50,881 - INFO - Número de execuções:1
+2022-06-21 05:10:50,881 - INFO - Taxa de resfriamento:0.99
+2022-06-21 05:10:50,882 - INFO - Temperatura inicial:10000
+2022-06-21 05:10:50,882 - INFO - Plotar resultados? True
+2022-06-21 05:10:50,886 - INFO - [./input/debug.csv]load_samples:815
+2022-06-21 05:10:50,928 - INFO - [814]do_normalize_samples:814
+2022-06-21 05:10:50,929 - DEBUG - Working with 43 features.
+2022-06-21 05:10:56,522 - DEBUG - Melhor vetor após 101 passos:[0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0];cujo valor da fobj=34
+2022-06-21 05:10:56,522 - INFO - Melhor configuração após 101 passos:Q_0.2_0|Q_0.3_3|Q_0.3_4|Q_0.5_2|Q_0.6_1|Q_1.0_0|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_1.15_0|Q_1.1_0|Q_1.6_0|Q_1.7_1|Q_1.8_0|Q_4.11_0|Q_4.11a_3|Q_4.11b_1|Q_4.13_0|Q_4.2_1;cujo valor da fobj=34
+2022-06-21 05:10:56,522 - INFO - [1000]do_simulated_annealing:Simulation(True):BestValue(34)
+2022-06-21 05:10:56,523 - INFO - Melhor configuração final:Q_0.2_0|Q_0.3_3|Q_0.3_4|Q_0.5_2|Q_0.6_1|Q_1.0_0|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_1.15_0|Q_1.1_0|Q_1.6_0|Q_1.7_1|Q_1.8_0|Q_4.11_0|Q_4.11a_3|Q_4.11b_1|Q_4.13_0|Q_4.2_1:34
+2022-06-21 05:10:56,524 - INFO - [20220621021046563896]save_history:mcmc_clustering_quadr_1000_1_history.csv
+2022-06-21 05:10:59,114 - DEBUG - max_value:9999.01
+2022-06-21 05:15:24,672 - INFO - [DONE]Module:Experiment

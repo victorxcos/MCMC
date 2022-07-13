@@ -1,0 +1,29 @@
+2022-06-19 00:01:55,098 - INFO - ***********************************************************
+2022-06-19 00:01:55,099 - INFO - *** MCMC Helper                                         ***
+2022-06-19 00:01:55,099 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-19 00:01:55,099 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-19 00:01:55,099 - INFO - ***********************************************************
+2022-06-19 00:01:55,099 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-19 00:01:55,099 - INFO - ***********************************************************
+2022-06-19 00:01:55,099 - INFO - [INIT]Module:Experiment
+2022-06-19 00:01:55,100 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-19 00:01:55,100 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-19 00:01:55,100 - INFO - Estratégia de Resfriamento:linear
+2022-06-19 00:01:55,100 - INFO - Número de passos:100
+2022-06-19 00:01:55,101 - INFO - Número de execuções:3
+2022-06-19 00:01:55,101 - INFO - Plotar resultados? False
+2022-06-19 00:02:01,909 - INFO - [./input/debug.csv]load_samples:815
+2022-06-19 00:02:01,953 - INFO - [814]do_normalize_samples:814
+2022-06-19 00:02:01,953 - DEBUG - Working with 43 features.
+2022-06-19 00:02:06,205 - DEBUG - Melhor vetor:[1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1]:80
+2022-06-19 00:02:06,205 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:80
+2022-06-19 00:02:06,205 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(80)
+2022-06-19 00:02:11,517 - DEBUG - Melhor vetor:[1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1]:9
+2022-06-19 00:02:11,517 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:9
+2022-06-19 00:02:11,517 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(9)
+2022-06-19 00:02:16,087 - DEBUG - Melhor vetor:[1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]:68
+2022-06-19 00:02:16,087 - INFO - Melhor configuração:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:68
+2022-06-19 00:02:16,087 - INFO - [100]do_simulated_annealing:Simulation(True):BestValue(68)
+2022-06-19 00:02:19,038 - INFO - Melhor configuração final:Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2Q_0.1_2:80
+2022-06-19 00:02:33,630 - INFO - [20220618210151201570]save_history:mcmc_clustering_linear_100_3_history.csv
+2022-06-19 00:02:58,226 - ERROR - list index out of range

@@ -1,0 +1,30 @@
+2022-06-19 03:23:19,583 - INFO - ***********************************************************
+2022-06-19 03:23:19,584 - INFO - *** MCMC Helper                                         ***
+2022-06-19 03:23:19,584 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-19 03:23:19,584 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-19 03:23:19,584 - INFO - ***********************************************************
+2022-06-19 03:23:19,584 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-19 03:23:19,585 - INFO - ***********************************************************
+2022-06-19 03:23:19,585 - INFO - [INIT]Module:Experiment
+2022-06-19 03:23:19,585 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-19 03:23:19,586 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-19 03:23:19,586 - INFO - Estratégia de Resfriamento:quadr
+2022-06-19 03:23:19,586 - INFO - Número de passos:1000
+2022-06-19 03:23:19,586 - INFO - Número de execuções:3
+2022-06-19 03:23:19,586 - INFO - Plotar resultados? False
+2022-06-19 03:23:19,590 - INFO - [./input/debug.csv]load_samples:815
+2022-06-19 03:23:19,647 - INFO - [814]do_normalize_samples:814
+2022-06-19 03:23:19,648 - DEBUG - Working with 43 features.
+2022-06-19 03:23:20,513 - ERROR - division by zero
+2022-06-19 03:23:20,513 - ERROR - [EXPT]do_simulated_annealing
+2022-06-19 03:23:20,514 - ERROR - division by zero
+2022-06-19 03:23:20,514 - INFO - [1000]do_simulated_annealing:Simulation(False):BestValue(16)
+2022-06-19 03:23:21,289 - ERROR - division by zero
+2022-06-19 03:23:21,289 - ERROR - [EXPT]do_simulated_annealing
+2022-06-19 03:23:21,289 - ERROR - division by zero
+2022-06-19 03:23:21,289 - INFO - [1000]do_simulated_annealing:Simulation(False):BestValue(25)
+2022-06-19 03:23:22,149 - ERROR - division by zero
+2022-06-19 03:23:22,149 - ERROR - [EXPT]do_simulated_annealing
+2022-06-19 03:23:22,149 - ERROR - division by zero
+2022-06-19 03:23:22,149 - INFO - [1000]do_simulated_annealing:Simulation(False):BestValue(48)
+2022-06-19 03:23:22,149 - INFO - Melhor configuração final::0

@@ -1,0 +1,27 @@
+2022-06-21 03:55:24,247 - INFO - ***********************************************************
+2022-06-21 03:55:24,248 - INFO - *** MCMC Helper                                         ***
+2022-06-21 03:55:24,248 - INFO - *** Algoritmos de Monte Carlo e Cadeias de Markov 2022/1***
+2022-06-21 03:55:24,248 - INFO - *** Aluno: Victor de Almeida Xavier                     ***
+2022-06-21 03:55:24,248 - INFO - ***********************************************************
+2022-06-21 03:55:24,248 - INFO - *** Simulação de Otimização Combinatória                ***
+2022-06-21 03:55:24,248 - INFO - ***********************************************************
+2022-06-21 03:55:24,249 - INFO - [INIT]Module:Experiment
+2022-06-21 03:55:24,250 - INFO - Experimentos de Simulação de Otimização Combinatória: Clustering
+2022-06-21 03:55:24,250 - INFO - Arquivo de Entrada:./input/debug.csv
+2022-06-21 03:55:24,250 - INFO - Estratégia de Resfriamento:linear
+2022-06-21 03:55:24,250 - INFO - Função de Custo:uniqueness
+2022-06-21 03:55:24,251 - INFO - Número de passos:1000
+2022-06-21 03:55:24,251 - INFO - Número de execuções:1
+2022-06-21 03:55:24,251 - INFO - Taxa de resfriamento:0.99
+2022-06-21 03:55:24,251 - INFO - Temperatura inicial:1000.0
+2022-06-21 03:55:24,251 - INFO - Plotar resultados? True
+2022-06-21 03:55:24,255 - INFO - [./input/debug.csv]load_samples:815
+2022-06-21 03:55:24,308 - INFO - [814]do_normalize_samples:814
+2022-06-21 03:55:24,309 - DEBUG - Working with 43 features.
+2022-06-21 03:55:54,159 - DEBUG - Melhor vetor após 1000 passos:[1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0];cujo valor da fobj=101
+2022-06-21 03:55:54,159 - INFO - Melhor configuração após 1000 passos:Q_0.1_1|Q_0.2_0|Q_0.3_3|Q_0.3_4|Q_0.5_2|Q_0.5_3|Q_0.5_4|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_4.11a_1|Q_4.11a_3|Q_4.11b_1|Q_4.1_1|Q_4.3_2;cujo valor da fobj=101
+2022-06-21 03:55:54,162 - INFO - [1000]do_simulated_annealing:Simulation(True):BestValue(101)
+2022-06-21 03:55:54,162 - INFO - Melhor configuração final:Q_0.1_1|Q_0.2_0|Q_0.3_3|Q_0.3_4|Q_0.5_2|Q_0.5_3|Q_0.5_4|Q_1.12_0|Q_1.13_0|Q_1.14_0|Q_4.11a_1|Q_4.11a_3|Q_4.11b_1|Q_4.1_1|Q_4.3_2:101
+2022-06-21 03:55:54,168 - INFO - [20220621005520163234]save_history:mcmc_clustering_linear_1000_1_history.csv
+2022-06-21 03:57:10,808 - DEBUG - max_value:999.01
+2022-06-21 03:59:30,712 - INFO - [DONE]Module:Experiment
